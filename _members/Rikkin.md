@@ -1,8 +1,8 @@
 ---
 name: Rikkin Pankaj Panchal
-image: images/photo.jpg
+image: images/Rikkin_photo.jpg
 role: student
-affiliation: University of Colorado
+affiliation: Master Student
 aliases:
   - J. Smith
   - J Smith
