@@ -11,17 +11,6 @@ ETAIC Lab is led by Professor Hongtei Eric Tseng, a member of the U.S. National 
 
 ETAIC Lab welcomes collaborations across AI, robotics, and control engineering to build the next generation of intelligent, robust, and human-compatible autonomous systems.
 
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
 
 {% include section.html %}
 
