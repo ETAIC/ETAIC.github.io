@@ -7,27 +7,58 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-### Principal Investigator
-
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 {% include section.html %}
 
+<div style="text-align: center;">
 ### Principal Investigator
+</div>
 
+<style>
+.pi-portrait {
+  transform: scale(1.2);
+  margin: 2em 0;
+}
+.pi-portrait .portrait-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.pi-portrait .portrait-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.pi-portrait .portrait-description {
+  font-size: 1.2em;
+}
+</style>
+
+<div class="pi-portrait">
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
+</div>
 
-### Faculty Members
+<div style="text-align: center;">
+### Faculty Member
+</div>
 
 {% include list.html data="members" component="portrait" filter="role == 'faculty'" %}
 
+<div style="text-align: center;">
 ### Student Members
+</div>
 
 {% include list.html data="members" component="portrait" filter="role == 'student'" %}
+
+{% include section.html background="images/background.jpg" dark=true %}
+
+## Join us
+
+If you are interested in our research directions, we warmly welcome you to join our team! We offer strong funding support and excellent hardware resources.
+1. Ph.D. student recruitment
+2. Master's student recruitment
+3. Internships (on-site / remote)
+4. Postdoctoral positions
+
+
 
 {% include section.html background="images/background.jpg" dark=true %}
 
