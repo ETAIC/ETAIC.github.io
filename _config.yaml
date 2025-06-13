@@ -1,17 +1,17 @@
 # site properties and page defaults
 title: ETAIC Research Lab
 subtitle: Embodied Technology for Autonomy, Intelligence, and Control
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+description: Research Lab of Embodied Technology for Autonomy, Intelligence, and Control Led By Prof. H. Eric Tseng.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
+  email: hongtei.tseng@uta.edu
+  orcid: N/A
+  google-scholar: https://scholar.google.com/citations?user=UWnwlu4AAAAJ&hl=en
+  github: https://etaic.github.io/team/
   twitter: YourLabHandle
   youtube: YourLabChannel
 
