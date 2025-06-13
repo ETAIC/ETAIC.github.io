@@ -2,7 +2,7 @@
 name: Hao Zhang
 image: images/photo.jpg
 role: faculty
-affiliation: University of Colorado
+affiliation: Associate Director
 aliases:
   - J. Smith
   - J Smith
