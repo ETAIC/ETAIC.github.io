@@ -31,7 +31,7 @@ If you are interested, please send your CV and a brief personal statement to the
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="[https://www.google.com/maps](https://www.google.com/maps/place/Engineering+Research+Building+(ERB)/@32.7334391,-97.1158105,760m/data=!3m2!1e3!4b1!4m6!3m5!1s0x864e7d72e4763a33:0xf7ff0ac9cd605a59!8m2!3d32.7334346!4d-97.1132302!16s%2Fg%2F11c0xyzvh3?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D)"
+  link="[Address](https://www.google.com/maps/place/Engineering+Research+Building+(ERB)/@32.7334391,-97.1158105,760m/data=!3m2!1e3!4b1!4m6!3m5!1s0x864e7d72e4763a33:0xf7ff0ac9cd605a59!8m2!3d32.7334346!4d-97.1132302!16s%2Fg%2F11c0xyzvh3?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D)"
 %}
 
 {% include section.html %}
