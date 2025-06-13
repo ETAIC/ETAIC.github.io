@@ -2,7 +2,7 @@
 name: H. Eric Tseng
 image: images/photo.jpg
 role: pi
-affiliation: University of Colorado
+affiliation: Director
 aliases:
   - J. Smith
   - J Smith
