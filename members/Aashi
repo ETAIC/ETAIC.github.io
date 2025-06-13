@@ -907,14 +907,6 @@ Magna eget est lorem ipsum.
     
   </div>
 
-  <div>
-    &copy; 2025
-    ETAIC Research Lab
-    &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
-  </div>
 
   <input
     type="checkbox"
