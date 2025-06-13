@@ -1,5 +1,5 @@
 ---
-name: Jane Smith
+name: H. Eric Tseng
 image: images/photo.jpg
 role: pi
 affiliation: University of Colorado
