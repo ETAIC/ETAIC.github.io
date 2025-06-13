@@ -1,8 +1,8 @@
 ---
 name: Aashi Ashokbhai Goyani
-image: images/photo.jpg
+image: images/Aashi_photo.jpg
 role: student
-affiliation: University of Colorado
+affiliation: Master Student
 aliases:
   - J. Smith
   - J Smith
