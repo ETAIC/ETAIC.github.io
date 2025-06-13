@@ -15,7 +15,7 @@ nav:
 
 <style>
 .pi-portrait {
-  transform: scale(1.2);
+  transform: scale(1.5);
   margin: 2em 0;
 }
 .pi-portrait .portrait-image {
