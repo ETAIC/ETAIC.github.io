@@ -7,71 +7,32 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+If you are excited about our research directions, we warmly welcome you to join the ETAIC Lab! We offer strong funding support and state-of-the-art hardware resources, including scaled vehicles, wheeled robots, robot arms, UAVs, and motion tracking systems.
+We are currently recruiting for the following positions:
+Ph.D. students
+Master’s students
+Research interns (on-site or remote)
+Postdoctoral researchers
+If you are interested, please send your CV and a brief personal statement to the lab directors.
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="hongtei.tseng@uta.edu"
+  link="hongtei.tseng@uta.edu"
 %}
 {%
   include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  type="email"
+  text="zhang-h19@tsinghua.orn.cn"
+  link="zhang-h19@tsinghua.orn.cn"
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="[https://www.google.com/maps](https://www.google.com/maps/place/Engineering+Research+Building+(ERB)/@32.7334391,-97.1158105,760m/data=!3m2!1e3!4b1!4m6!3m5!1s0x864e7d72e4763a33:0xf7ff0ac9cd605a59!8m2!3d32.7334346!4d-97.1132302!16s%2Fg%2F11c0xyzvh3?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D)"
 %}
 
 {% include section.html %}
 
-{% capture col1 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
