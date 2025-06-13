@@ -1,5 +1,5 @@
 ---
-name: John Doe
+name: Hao Zhang
 image: images/photo.jpg
 role: faculty
 group: alum
