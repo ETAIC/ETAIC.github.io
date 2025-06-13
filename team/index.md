@@ -33,5 +33,3 @@ If you are interested in our research directions, we warmly welcome you to join 
 2. Master's student recruitment
 3. Internships (on-site / remote)
 4. Postdoctoral positions
-
-{% include grid.html style="square" content=content %}
