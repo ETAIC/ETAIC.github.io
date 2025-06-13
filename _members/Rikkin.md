@@ -4,8 +4,8 @@ image: images/Rikkin_photo.jpg
 role: student
 affiliation: Master Student
 aliases:
-  - J. Smith
-  - J Smith
+  - Rikkin
+  - RIKKIN
 links:
   home-page: https://janesmith.com
   orcid: 0000-0001-8713-9213
