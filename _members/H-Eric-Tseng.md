@@ -1,11 +1,11 @@
 ---
 name: H. Eric Tseng
-image: images/photo.jpg
+image: images/Eric_photo.jpg
 role: pi
-affiliation: Director
+affiliation: DIRECTOR
 aliases:
-  - J. Smith
-  - J Smith
+  - Eric
+  - ERIC
 links:
   home-page: https://janesmith.com
   orcid: 0000-0001-8713-9213
