@@ -1,11 +1,11 @@
 ---
 name: Hao Zhang
-image: images/photo.jpg
+image: images/Hao_photo.jpg
 role: faculty
 affiliation: Associate Director
 aliases:
-  - J. Smith
-  - J Smith
+  - Hao
+  - HAO
 links:
   home-page: https://janesmith.com
   orcid: 0000-0001-8713-9213
