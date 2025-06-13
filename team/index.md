@@ -13,8 +13,17 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
+### Principal Investigators
+
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+
+### Faculty Members
+
+{% include list.html data="members" component="portrait" filter="role == 'faculty'" %}
+
+### Student Members
+
+{% include list.html data="members" component="portrait" filter="role == 'student'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
