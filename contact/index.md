@@ -7,8 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-If you are excited about our research directions, we warmly welcome you to join the ETAIC Lab! We offer strong funding support and state-of-the-art hardware resources, including scaled vehicles, wheeled robots, robot arms, UAVs, and motion tracking systems.
-We are currently recruiting for the following positions:
+If you are excited about our research directions, we warmly welcome you to join the ETAIC Lab! 
+The lab offers strong funding support and state-of-the-art hardware resources. Currently recruiting for the following positions:
 Ph.D. students
 Master’s students
 Research interns (on-site or remote)
