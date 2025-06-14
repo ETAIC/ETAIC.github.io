@@ -6,9 +6,7 @@
 
 ETAIC (Emergent Technologies for Autonomy, Intelligence, and Control) Research laboratory focuses on the development of intelligent agents that combine Reinforcement Learning (RL), modern control theory, and game-theoretic human-robot collaboration. Our research explores cutting-edge directions such as Multi-Agent Reinforcement Learning (MARL), closed-loop integration of Large Language Models (LLMs), and trustworthy autonomy in human-cyber-physical systems.
 
-To bridge theory and practice, ETAIC Lab emphasizes experimental validation. Researchers have full access to a comprehensive suite of robotic platforms and testing facilities, including scaled autonomous vehicles, wheeled robots, robotic arms, and UAVs, supported by a 3D motion capture system and both indoor and outdoor netted drone arenas.
-
-ETAIC Lab is led by Professor Hongtei Eric Tseng, a member of the U.S. National Academy of Engineering (NAE). ETAIC Lab welcomes collaborations across AI, robotics, and control engineering to build the next generation of intelligent, robust, and human-compatible autonomous systems.
+ETAIC Lab is led by Professor Hongtei Eric Tseng, a member of the U.S. National Academy of Engineering (NAE). ETAIC Lab welcomes collaborations across AI, robotics, and control engineering to build the next generation of intelligent, robust, and human-compatible autonomous systems. To bridge theory and practice, ETAIC Lab emphasizes experimental validation. Researchers have full access to a comprehensive suite of robotic platforms and testing facilities, including scaled autonomous vehicles, wheeled robots, robotic arms, and UAVs, supported by a 3D motion capture system and both indoor and outdoor netted drone arenas.
 
 
 {% include section.html %}
@@ -39,7 +37,7 @@ We explore how cutting-edge AI, control theory, and human-robot interaction can 
 
 {% capture text %}
 
-ETAIC Lab advances intelligent autonomous systems through projects with practical impact. We focus on adaptive control for humanoid and quadrupedal robots in micro-mobility, enhancing their agility and manipulation in complex environments. We develop swarm algorithms for drones and autonomous vehicles to optimize delivery and transportation in dynamic urban settings. Our work also includes trustworthy human-robot collaboration for shared driving autonomy, and we design energy-aware predictive control systems for electric autonomous vehicles to optimize energy use and extend range, promoting sustainable urban mobility.
+ETAIC Lab advances intelligent autonomous systems through projects with practical impact. We focus on adaptive control for humanoid and quadrupedal robots in micro-mobility, enhancing their agility and manipulation in complex environments. We develop multi-agent control algorithms for drones and autonomous vehicles to optimize delivery and transportation in dynamic urban settings. Our work also includes trustworthy human-robot collaboration for shared driving autonomy, and we design energy-aware predictive control systems for electric autonomous vehicles to promote sustainable urban mobility.
 {%
   include button.html
   link="projects"
@@ -63,7 +61,7 @@ ETAIC Lab advances intelligent autonomous systems through projects with practica
 
 {% capture text %}
 
-ETAIC Lab is led by Prof. H. Eric Tseng, a member of the U.S. National Academy of Engineering and recipient of seven Henry Ford Technology Awards. With nearly 30 years at Ford Motor Company as Senior Technical Leader, Prof. Tseng’s innovations in vehicle dynamics, powertrain control, and driver-assist technologies have been widely adopted in production models like the Ford F-150 and Super Duty. He holds over 110 U.S. patents—many in commercial use—and has coauthored 150+ publications, including key book chapters. His leadership brings deep industrial insight and academic rigor, positioning ETAIC Lab at the forefront of embodied AI and micro-mobility research.
+ETAIC Lab is led by Prof. H. Eric Tseng, a member of the U.S. National Academy of Engineering and recipient of seven Henry Ford Technology Awards. With nearly 30 years at Ford Motor Company as Senior Technical Leader, Prof. Tseng’s innovations in autonomous systems, vehicle dynamics and powertrain control have been widely adopted in production models. He holds over 110 U.S. patents—many in commercial use—and has coauthored 150+ publications, including key book chapters. His leadership brings deep industrial insight and academic rigor, positioning ETAIC Lab at the forefront of embodied AI and micro-mobility research.
 
 {%
   include button.html
