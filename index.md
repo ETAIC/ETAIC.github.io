@@ -1,6 +1,7 @@
 ---
 ---
 
+
 # Welcome to H. Eric Tseng's Lab
 
 ETAIC (Emergent Technologies for Autonomy, Intelligence, and Control) Research laboratory focuses on the development of intelligent agents that combine Reinforcement Learning (RL), modern control theory, and game-theoretic human-robot collaboration. Our research explores cutting-edge directions such as Multi-Agent Reinforcement Learning (MARL), closed-loop integration of Large Language Models (LLMs), and trustworthy autonomy in human-cyber-physical systems.
