@@ -9,10 +9,10 @@ nav:
 
 If you are excited about our research directions, we warmly welcome you to join the ETAIC Lab! 
 The lab offers strong funding support and state-of-the-art hardware resources. Currently recruiting for the following positions:
-Ph.D. students
-Master’s students
-Research interns (on-site or remote)
-Postdoctoral researchers
+Ph.D. students;
+Master’s students;
+Research interns (on-site or remote);
+Postdoctoral researchers.
 If you are interested, please send your CV and a brief personal statement to the lab directors.
 
 {%
@@ -23,9 +23,15 @@ If you are interested, please send your CV and a brief personal statement to the
 %}
 {%
   include button.html
-  type="email"
-  text="zhang-h19@tsinghua.orn.cn"
-  link="zhang-h19@tsinghua.orn.cn"
+  type="NAE Website"
+  tooltip="H. Eric Tseng"
+  link="https://www.nae.edu/248787/Dr-Hongtei-E-Tseng"
+%}
+{%
+  include button.html
+  type="Google Scholar"
+  tooltip="H. Eric Tseng"
+  link="https://scholar.google.com/citations?user=UWnwlu4AAAAJ&hl=en"
 %}
 {%
   include button.html
