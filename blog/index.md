@@ -1,8 +1,8 @@
 ---
-title: Blog
+title: Publications
 nav:
   order: 4
-  tooltip: Musings and miscellany
+  tooltip: Selected papers
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
