@@ -24,12 +24,14 @@ If you are interested, please send your CV and a brief personal statement to the
 {%
   include button.html
   type="NAE Website"
+  text="NAE Website"
   tooltip="H. Eric Tseng"
   link="https://www.nae.edu/248787/Dr-Hongtei-E-Tseng"
 %}
 {%
   include button.html
   type="Google Scholar"
+  text="Google Scholar"
   tooltip="H. Eric Tseng"
   link="https://scholar.google.com/citations?user=UWnwlu4AAAAJ&hl=en"
 %}
