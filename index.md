@@ -61,7 +61,7 @@ ETAIC Lab advances intelligent autonomous systems through projects with practica
 
 {% capture text %}
 
-ETAIC Lab is led by Prof. H. Eric Tseng, a member of the U.S. National Academy of Engineering and recipient of seven Henry Ford Technology Awards. With nearly 30 years at Ford Motor Company as Senior Technical Leader, Prof. Tseng’s innovations in autonomous systems, vehicle dynamics and powertrain control have been widely adopted in production models. He holds over 110 U.S. patents—many in commercial use—and has coauthored 150+ publications, including key book chapters. His leadership brings deep industrial insight and academic rigor, positioning ETAIC Lab at the forefront of embodied AI and micro-mobility research.
+ETAIC Lab is led by Prof. H. Eric Tseng, a member of the U.S. National Academy of Engineering and recipient of seven Henry Ford Technology Awards. With nearly 30 years at Ford Motor Company as Senior Technical Leader, Prof. Tseng’s innovations in autonomous systems, vehicle dynamics and powertrain control have been widely adopted in production models. He holds over 110 U.S. patents and has coauthored 150+ publications, including key book chapters. His leadership brings deep industrial insight and academic rigor, positioning ETAIC Lab at the forefront of embodied AI and micro-mobility research.
 
 {%
   include button.html
