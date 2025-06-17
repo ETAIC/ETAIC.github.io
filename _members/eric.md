@@ -4,17 +4,22 @@ startdate: [2024-06-01]
 enddate: []
 image: /static/img/members/Eric_photo.jpg
 altimage: /static/img/members/Eric_photo_b.jpg
-position: Distinguished University Professor<br>Principal Investigator<br>Director of ETAIC
+position: Principal Investigator<br>Distinguished University Professor<br>Director of ETAIC
 #current:
 email: hongtei.tseng@uta.edu
 scholar: UWnwlu4AAAAJ
 UCSF: https://www.uta.edu/academics/faculty/profile?user=hongtei.tseng
 orcid: 0000-0001-5087-9592
-description: "Prof. Tseng is a distinguished university professor in the University of Texas at Arlington. He received his B.S. degree from National Taiwan University in 1986. He received his M.S. and Ph.D. degrees from the University of California, Berkeley in 1991 and 1994, respectively, all in Mechanical Engineering.
+description: "Prof. Tseng is a Distinguished University Professor at the University of Texas at Arlington, and established the [ETAIC (Embodied Technology for Autonomy, Intelligence, and Control) Research Lab](https://etaic.github.io/). He is a member of the U.S. National Academy of Engineering (NAE), recognized for his contributions to intelligent vehicle control and automotive systems integration.<br>
 
-In 1994, he joined Ford Motor Company. At Ford (1994-2022), he had a productive career and retired as a Senior Technical Leader of Controls and Automated Systems in Research and Advanced Engineering. Many of his contributed technologies led to production vehicles implementation, including vehicle state estimation and fault detection for Ford and Volvo Roll Stability Control system; advanced modeling and control strategy for fast skip-downshift on Ford F150 10R transmissions; lateral control enhancement for lane centering on Ford Lightning and F150 with BlueCruise; and trailer angle estimation for Pro Trailer Backup Assist on Ford Super Duty. His technical achievements have been honored with Ford's highest annual technology award, the Henry Ford Technology Award, unprecedentedly on seven occasions. Additionally, he was the recipient of the prestigious Control Engineering Practice Award from the American Automatic Control Council in 2013.
+He received his B.S. in Mechanical Engineering from National Taiwan University in 1986, and his M.S. and Ph.D. from the University of California, Berkeley in 1991 and 1994, respectively.<br>
 
-He is UTA’s first hire under the Recruiting Innovative Scholars for Excellence initiative, RISE 100. He has decades of experience in the automotive industry and more than 100 U.S. patents to his name, about a third of which have been implemented in Ford vehicles. He is also the author/coauthor of over 150 publications, including 6 book chapters. He has helped develop vehicle technology that has improved self-driving capabilities and reduced the chances of rollover accidents.
+After joining Ford Motor Company in 1994 as a product design engineer in chassis engineering, he transitioned in 1998 to Ford Research and Advanced Engineering, where he focused on vehicle system control. Over his 28-year career at Ford, he led the development of key technologies that were deployed across production vehicles. These include vehicle state estimation for roll stability control, fast skip-downshift logic for F-150’s 10-speed transmission, lateral control algorithms for BlueCruise lane centering, and trailer angle estimation for Pro Trailer Backup Assist. From 2017 to 2022, he served as Senior Technical Leader of Controls and Automated Systems, one of Ford’s highest technical positions.<br>
 
-He is also a member of the National Academy of Engineering (NAE). Membership in NAE—which honors professionals who have made outstanding and innovative contributions to the research, practice, education or advancement of engineering—is among the highest professional distinctions awarded in the field."
+He received seven Henry Ford Technology Awards, the company’s top technical honor, for innovations ranging from traction control to driveline torque management and trailer assist systems. In 2013, he was awarded the Control Engineering Practice Award by the American Automatic Control Council for impactful real-world control applications.<br>
+
+He joined UTA as the first faculty under the RISE 100 initiative, bringing decades of industrial expertise to academia and continuing his research at the intersection of control theory, robotics, and transportation systems.<br>
+
+Prof. Tseng holds over 100 U.S. patents, with around one-third implemented in production vehicles, and has published more than 150 technical papers, including several book chapters. His work has significantly advanced vehicle safety, automation, and intelligent mobility technologies.
+"
 ---
