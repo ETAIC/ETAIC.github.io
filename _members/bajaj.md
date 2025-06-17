@@ -5,7 +5,7 @@ startdate: [2025-03-01]
 enddate: #[YYYY-MM-DD]
 image: /static/img/members/Hao_photo.jpg #365 x 365 pixels, 72 dpi
 altimage: /static/img/members/Hao_photo_b.jpg #365 x 365 pixels, 72 dpi
-position: Research Associate<br>Associate Director
+position: Research Fellow<br>Associate Director of ETAIC
 #subsequent:  update once you become an alumnus
 email: zhang-h19@tsinghua.org.cn #Preferred public email address
 scholar: qC9ScSkAAAAJ #Google Scholar User ID
