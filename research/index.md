@@ -17,7 +17,7 @@ The long-term goals of our research are to advance intelligent autonomous system
 
 <div class="row">
 
-### Safe Decision-Making and Control for Autonomous Vehicles in Interactive and Adverse Environments
+### Safe Decision-Making and Control for CAVs in Interactive and Adverse Environments
 
 <div class="col-md-7 order-md-1">
 
@@ -44,7 +44,7 @@ Our research addressed the core challenges in automated driving, including long-
 <br>
 <br>
 
-### Multi-Agent Reinforcement Learning and Human-Robot Collaboration in General Robot Systems
+### Multi-Agent Reinforcement Learning and Human-Robot Collaboration in Robot Systems
 
 <div class="col-md-7 order-md-2">
 
