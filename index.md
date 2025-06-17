@@ -1,19 +1,22 @@
 ---
-title: Fraser Lab
+title: ETAIC Lab
 layout: home
 group: home
 ---
 
-# Welcome to the Fraser Lab!
+# Welcome to the ETAIC Lab!
 {: .display-4}
 <br>
-We are part of the [Department of Bioengineering and Therapeutic Sciences](http://bts.ucsf.edu/), the [Macromolecular Structure Group](http://msg.ucsf.edu/), and the [California Institute of Quantitative Biosciences (QB3)](http://qb3.org/).
+The ETAIC (Embodied Technology for Autonomy, Intelligence, and Control) Research Lab are part of the [](http://bts.ucsf.edu/), the [Department of Electrical Engineering
+](https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/electrical), led by [Prof. H. Eric Tseng](https://www.nae.edu/248787/Dr-Hongtei-E-Tseng), a member of the U.S. National Academy of Engineering (NAE).
 {: .welcomefont}
 
-![Fraser lab logo](static/img/logo/jf_retreat_logo.svg){:style="max-width: 100%; height: auto;"}
+![ETAIC lab logo](static/img/logo/jf_retreat_logo.svg){:style="max-width: 100%; height: auto;"}
 
-Research in the lab is focused on discovering the fundamental principles of macromolecular structure and dynamics.  We are interested in defining conformational states that are essential for function and understanding how conformational transitions couple to biological mechanisms.
+Research in the lab is focused on developing embodied AI agents that integrate reinforcement learning, modern control theory, and game-theoretic approaches to enable effective human-robot collaboration. Our work spans frontier topics such as multi-agent reinforcement learning, large language models with closed-loop control capabilities, and trustworthy autonomy in human-cyber-physical systems.
+{: .welcomefont}
+To bridge theory with real-world deployment, the ETAIC Lab places strong emphasis on experimental validation. We are equipped with a comprehensive suite of robotic platforms and test facilities, including humanoid robots, wheeled robots, scaled autonomous vehicles, robotic arms, and UAVs. These are supported by a high-precision 3D motion capture system and dedicated indoor and outdoor netted drone arenas.
 {: .welcomefont}
 
-We are located in Genentech Hall at the Mission Bay Campus of UCSF.
+We are located in the Engineering Research Building (ERB) at the University of Texas at Arlington.
 {: .welcomefont}
