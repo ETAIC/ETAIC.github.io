@@ -7,7 +7,7 @@ group: home
 # Welcome to the ETAIC Lab!
 {: .display-4}
 <br>
-The **ETAIC** (Embodied Technology for Autonomy, Intelligence, and Control) Research Lab is led by [Professor H. Eric Tseng](https://www.nae.edu/248787/Dr-Hongtei-E-Tseng), a member of the U.S. National Academy of Engineering (NAE). Research in the lab is focused on developing embodied AI agents that integrate reinforcement learning, modern control theory, and game-theoretic approaches to enable effective human-robot collaboration. 
+The **ETAIC** (Embodied Technology for Autonomy, Intelligence, and Control) Research Lab is led by [Professor H. Eric Tseng](https://www.nae.edu/248787/Dr-Hongtei-E-Tseng), a member of the U.S. National Academy of Engineering (NAE). Research in the lab is focused on developing embodied AI agents that integrate reinforcement learning, modern control theory, and game-theoretic approaches to enable next-generation micro-mobility devices (including assistive and mobile robots) and connected and automated vehicles.
 {: .welcomefont}
 
 ![ETAIC lab logo](static/img/logo/jf_retreat_logo.svg){:style="max-width: 100%; height: auto;"}
