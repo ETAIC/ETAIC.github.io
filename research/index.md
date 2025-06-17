@@ -26,6 +26,7 @@ Our research addressed the core challenges in automated driving, including long-
 - Long-Tail Distribution: Rare and unpredictable events in complex or adverse driving environments.
 - Interactive Environments: Safe negotiation with human drivers, pedestrians, and cyclists.
 - Testing & Validation: Balancing high performance with robustness under real-world uncertainties.
+
 <br>**Our Approach:**
 - Hybrid Intelligence: Integrating structured models with real-world data to improve adaptability and robustness.
 - Hierarchical Architecture: Combining strategic planning with reactive control through cognitive and embodied intelligence layers.
@@ -49,6 +50,7 @@ We explore how to empower robots with the ability to make robust decisions throu
 - Maintaining reliable robot performance and effectively responding to diverse, unforeseen events within dynamic and uncertain environments, including sensor failures and environmental changes.
 - Enabling robots to learn optimal policies safely, strictly adhering to protocols and avoiding hazardous actions.
 - Facilitating seamless and intuitive collaboration by allowing robots to understand and adapt to human partners' dynamic behaviors.
+
 <br>**Our Approach:**
 - Developing safe reinforcement learning frameworks to prevent unsafe states during exploration and policy learning, ensuring robust decision-making.
 - Enhancing robot decision-making through interpretability and implicit adaptation, leveraging techniques like explainable AI and large language models for generalized behavior across diverse scenarios.
