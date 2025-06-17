@@ -7,8 +7,7 @@ group: home
 # Welcome to the ETAIC Lab!
 {: .display-4}
 <br>
-The ETAIC (Embodied Technology for Autonomy, Intelligence, and Control) Research Lab is part of the [](http://bts.ucsf.edu/), the [Department of Electrical Engineering
-](https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/electrical), led by [Prof. H. Eric Tseng](https://www.nae.edu/248787/Dr-Hongtei-E-Tseng), a member of the U.S. National Academy of Engineering (NAE).
+The **ETAIC** (Embodied Technology for Autonomy, Intelligence, and Control) Research Lab is led by [Professor H. Eric Tseng](https://www.nae.edu/248787/Dr-Hongtei-E-Tseng), a member of the U.S. National Academy of Engineering (NAE).
 {: .welcomefont}
 
 Research in the lab is focused on developing embodied AI agents that integrate reinforcement learning, modern control theory, and game-theoretic approaches to enable effective human-robot collaboration. Our work spans frontier topics such as multi-agent reinforcement learning, large language models with closed-loop control capabilities, and trustworthy autonomy in human-cyber-physical systems.
