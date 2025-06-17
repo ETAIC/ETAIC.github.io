@@ -41,6 +41,8 @@ Our research addressed the core challenges in automated driving, including long-
 </div>
 </div>
 <div class="row">
+<br>
+<br>
 
 ### Multi-Agent Reinforcement Learning and Human-Robot Collaboration in General Robot Systems
 
