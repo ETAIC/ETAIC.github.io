@@ -1,20 +1,19 @@
 ---
-name: Daphne Chen
-startdate: [2021-06-21]
+name: Rikkin Pankaj Panchal
+startdate: [2025-05-01]
 enddate: []
-image: /static/img/members/chen.jpg #365 x 365 pixels, 72 dpi
-altimage: /static/img/members/chen_pb.jpg #365 x 365 pixels, 72 dpi
-position: "Graduate Student, [Biophysics](https://biophysics.ucsf.edu) ([Discovery Fellow](https://graduate.ucsf.edu/discovery-fellows-program))"
+image: /static/img/members/rikkin_photo.jpg #365 x 365 pixels, 72 dpi
+altimage: /static/img/members/rikkin_photo_b.jpg #365 x 365 pixels, 72 dpi
+position: Graduate Student<br>Research Assistant
 #subsequent:  update once you become an alumnus
-pronouns: she/her/hers #personal pronouns
-email: daphne.chen (at) ucsf.edu #Preferred public email address
+email: rxp6313@mavs.uta.edu
 scholar:
 website:
 UCSF:
 twitter:
 linkedin:
 github:
-orcid: 0000-0002-5571-3548
+
 description: "Daphne graduated from UCLA with a degree in Biophysics. As an undergraduate, she studied the effects of chaotropes and kosmotropes on protein hydration layers under the guidance of [Dr. Giovanni Zocchi](https://zocchi.physics.ucla.edu).
 
 
