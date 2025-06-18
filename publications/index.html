@@ -6,172 +6,105 @@ group: publications
 <h1>Publications</h1>
 <div class="container-fluid">
 
-{% assign sorted = site.publications | sort: "pub_date" | reverse %}
-{% for publication in sorted %}
 
-<hr>
-<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
-	<div>
-		<h5>{{ publication.title | markdownify  | remove: '<p>' | remove: '</p>'}}</h5>
-		<h6>{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
-		{% if publication.journal %}
-			<i>{{ publication.journal }},</i>
-			{{publication.pub_date | split: "-" | first }}
-		{% else %}
-			{% if publication.biorxiv %}
-			<i>Biorxiv,</i>
-				{{publication.pub_date | split: "-" | first }}
-			{% elsif publication.biorxiv_version %}
-			<i>Biorxiv,</i>
-				{{publication.pub_date | split: "-" | first }}
-			{% elsif publication.chemrxiv %}
-			<i>ChemRxiv,</i>
-				{{publication.pub_date | split: "-" | first }}
-			{% else %}
-			<i>Preprint,</i>
-				{{publication.pub_date | split: "-" | first }}
-			{% endif %}
-		{% endif %}
-	</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TITS</div><img src='images/IEEE_TITS_2025_multi.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Multi-Scale Reinforcement Learning of Dynamic Energy Controller for Connected Electrified Vehicles](https://www.techrxiv.org/users/692350/articles/1184096-multi-scale-reinforcement-learning-of-dynamic-energy-controller-for-connected-electrified-vehicles?commit=cd309bc80017f735b83292e39179ef3815d2cbe2)
+
+**Hao Zhang**, Nuo Lei, Shengbo Eben Li, Junzhi Zhang, Zhi Wang
+
+- Given the intricate coupling of mechanical, electrical, thermal dynamics and driving cycles, automotive energy control becomes high-dimensional and complex. This study proposes a multi-horizon reinforcement learning (MHRL) featuring a novel state representation and coordinated training of sub-networks across multiple time scales, which greatly improves fuel economy in real-world driving.
+</div>
 </div>
 
-<div class="row" style="padding-top: 20px; margin-top: -20px">
-	<div class="col-sm-6">
-		<img class = "img-fluid" src = "{{publication.image}}" alt =  "Key Figure" style="max-height: 200px;">
-	</div>
-	<ul class="col-sm-6">
-		<br>
-		<h6>Access the paper</h6>
-		<!--PMID-->
-		{% if publication.pmid %}
-		<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" title = "PubMed: {{publication.pmid}} (opens in new tab)" target="_blank"> {{publication.pmid}}</a></li>
-		{% endif %}
 
-		<!--PMCID - optional -->
-		{% if publication.pmcid %}
-		<li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" title = "PubMed Central: {{publication.pmcid}} (opens in new tab)" target="_blank"> {{publication.pmcid}}</a></li>
-		{% endif %}
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TITS</div><img src='images/IEEE_TITS_2025_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-		<!--Biorxiv - optional -->
-		{% if publication.biorxiv %}
-		<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" title =  "BioRxiv Preprint: {{publication.biorxiv}} (opens in new tab)" target="_blank"> {{publication.biorxiv | split: "." | last }}</a></li>
-		{% endif %}
+[Bi-Level Transfer Learning for Lifelong-Intelligent Energy Management of Electric Vehicles](https://ieeexplore.ieee.org/document/11034670)
 
-		<!--Biorxiv specific version-->
-		{% if publication.biorxiv_version %}
-		<li>Biorxiv Preprint v{{publication.biorxiv_version | split: "." | last | split: "v" | last }}: <a href="http://www.biorxiv.org/content/10.1101/{{publication.biorxiv_version}}" title =  "BioRxiv Preprint: {{publication.biorxiv_version}} (opens in new tab)" target="_blank">{{publication.biorxiv_version | split: "." | last | split: "v" | first }}</a></li>
-		{% endif %}
+**Hao Zhang**, Nuo Lei, Wang Peng, Bingbing Li, Shujun Lv, Boli Chen, Zhi Wang
 
-		<!--Arxiv - optional -->
-		{% if publication.arxiv %}
-		<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{publication.arxiv}}" title = "aRxiv Preprint: {{publication.arxiv}} (opens in new tab)" target="_blank"> {{publication.arxiv}}</a></li>
-		{% endif %}
-
-		<!--Chemrxiv - optional -->
-		{% if publication.chemrxiv %}
-		<li>ChemRxiv Preprint: <a href="https://doi.org/10.26434/chemrxiv-{{publication.chemrxiv}}" title = "ChemRxiv Preprint: {{publication.chemrxiv}} (opens in new tab)" target="_blank"> {{publication.chemrxiv}}</a></li>
-		{% endif %}
-
-		<!-- PDF -->
-		{% if publication.journal %}
-			{% if publication.pdf %}
-		<li><a href="{{publication.pdf}}" title = "PDF for {{publication.title}} (opens in new tab)" target="_blank"> Full Text</a></li>
-			{% endif %}
-		{% endif %}
-
-		<!--OSF - optional -->
-		{% if publication.osf %}
-		<li>OSF Preprint: <a href="https://osf.io/{{publication.osf}}" title = "OSF Preprint: {{publication.osf}} (opens in new tab)" target="_blank"> {{publication.osf}}</a></li>
-		{% endif %}
-
-		<!-- SBGrid Datasets - optional -->
-		{% if publication.data %}
-		<li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
-			{% if publication.data.size > 1 %}
-			<ul>
-				{% for dataset in publication.data %}
-				<li><a href="http://dx.doi.org/{{dataset}}" title =  "SBGrid Data Repository (opens in new tab)" target="_blank">doi: {{dataset}}</a></li>
-				{% endfor %}
-			</ul>
-			{% else %}
-			<a href="http://dx.doi.org/{{publication.data}}" title =  "SBGrid Data Repository (opens in new tab)" target="_blank">doi: {{publication.data}}</a>
-			{% endif %}
-		</li>
-		{% endif %}
-
-		<!--PDBs - optional-->
-		{% if publication.pdbs %}
-		<li>Deposited Structure{% if publication.pdbs.size > 1 %}s{% endif %}:
-			{% for code in publication.pdbs %}
-			<a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{code}}" title =  "PDB: {{code}} (opens in new tab)" target="_blank">{{code}}</a>{% unless forloop.last %}, {% endunless %}
-			{% endfor %}
-		</li>
-		{% endif %}
-
-		<!--EMDBs - optional-->
-		{% if publication.emdbs %}
-		<li>Deposited Map{% if publication.emdbs.size > 1 %}s{% endif %}:
-			{% for code in publication.emdbs %}
-			<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{code}}" title =  "EMDB: {{code}} (opens in new tab)" target="_blank">{{code}}</a>{% unless forloop.last %}, {% endunless %}
-			{% endfor %}
-		</li>
-		{% endif %}
-
-		<!--pairs of maps and models - optional-->
-		{% if publication.paired_maps_and_models %}
-		<li>Deposited Structure{% if publication.paired_maps_and_models.size > 1 %}s{% endif %} and Map{% if publication.paired_maps_and_models.size > 1 %}s{% endif %}:
-			{% for pair in publication.paired_maps_and_models %}
-			<a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{pair.pdb}}" title =  "PDB and Map pair: {{pair.pdb}} (opens in new tab)" target="_blank">{{pair.pdb}}</a>/<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{pair.emdb}}">{{pair.emdb}}</a>{% unless forloop.last %}, {% endunless %}
-			{% endfor %}
-		</li>
-		{% endif %}
-
-		<!--maps and models and datasets - optional-->
-		{% if publication.paired_maps_and_models_and_data %}
-		<li>Deposited Structure{% if publication.paired_maps_and_models_and_data.size > 1 %}s{% endif %}, Map{% if publication.paired_maps_and_models_and_data.size > 1 %}s{% endif %}, and Data set{% if publication.paired_maps_and_models_and_data.size > 1 %}s{% endif %}:
-			{% for pair in publication.paired_maps_and_models_and_data %}
-			<a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{pair.pdb}}" title =  "PDB and Map pair: {{pair.pdb}} (opens in new tab)" target="_blank">{{pair.pdb}}</a>/<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-{{pair.emdb}}">{{pair.emdb}}</a>/<a href="https://empiar.org/{{pair.empiar}}/">{{pair.empiar}}</a>{% unless forloop.last %}, {% endunless %}
-			{% endfor %}
-		</li>
-		{% endif %}
-
-		<!--zenodo records - optional-->
-		{% if publication.zenodo %}
-		<li>Zenodo Record{% if publication.zenodo.size > 1 %}s{% endif %}:
-			{% for record in publication.zenodo %}
-			<a href="https://www.zenodo.org/record/{{record.code}}/" title =  "Zenodo: {{record.code}} (opens in new tab)" target="_blank">{{record.code}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
-			{% endfor %}
-		</li>
-		{% endif %}
-
-		<!--Github - optional-->
-		{% if publication.github %}
-		<li>{% if publication.github.size > 1 %}GitHub Repositories:{%else%}GitHub Repository:{% endif %}
-			{% for record in publication.github %}
-				<a href="https://www.github.com/{{record.url}}/" alt="GitHub Repository: {{record.url}} (opens in new tab)" target="_blank">{{record.url}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
-			{% endfor %}
-		</li>
-		{% endif %}
-
-		<!-- addgene plasmid - optional -->
-		{% if publication.addgene %}
-		<li>Addgene Plasmid{% if publication.addgene.size > 1 %}s{% endif %}:
-			{% for record in publication.addgene %}
-				<a href="https://www.addgene.org/{{record.plasmid}}/" alt="Addgene Plasmid: {{record.plasmid}} (opens in new tab)" target="_blank">{{record.plasmid}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
-			{% endfor %}
-		</li>
-		{% endif %}
-
-		<!--additional links - optional-->
-		{% if publication.links %}
-			<br>
-			<h6>Additional Link{% if publication.links.size > 1 %}s{% endif %}</h6>
-			{% for link in publication.links %}
-				<li><a href="{{link.url}}" alt="{{link.name}} (opens in new tab)" target="_blank">{{link.name}}</a></li>
-			{% endfor %}
-		{% endif %}
-	</ul>
+[**Industrial Collaborator: BYD Auto**](https://www.byd.com/us) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This paper proposes a bi-level transfer approach with MAML to realize cross-platform transferable and online-adaptive EMS for REEVs. It contributed to the successful industry deployment of RL methods, implemented in leading automotive company - BYD Auto, significantly enhancing the REEV efficiency. 
 </div>
-<br>
-{% endfor %}
 </div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TVT</div><img src='images/IEEE_TVT_TCNN_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Theory-Constrained Neural Network with Modular Interpretability for Fuel Cell Vehicle Modelling](https://ieeexplore.ieee.org/document/10852019)
+
+Nuo Lei, **Hao Zhang*** (Corresponding Author), Hong Wang, Zunyan Hu, Hu Chen, Jingjing Hu, Zhi Wang
+
+[**Industrial Collaborator: Hybot**](http://www.hybot.com.cn/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This paper proposes a theory-constrained neural network (TCNN) that integrates physical principles without sacrificing accuracy. A theory-guided filter ensures sub-module interpretability, and sub-networks are individually trained under theoretical constraints with a CNN-BiLSTM-MHSA architecture enhances overall accuracy. Results demonstrate significant improvements in fitting accuragy for fuel cell modeling.
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Energy</div><img src='images/EGY_RL_ECMS_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Modeling and control system optimization for electrified vehicles: A data-driven approach](https://www.sciencedirect.com/science/article/pii/S0360544224029712?via%3Dihub)
+
+**Hao Zhang**, Nuo Lei, Boli Chen, Bingbing Li, Rulong Li, Zhi Wang
+
+[**Industrial Collaborator: Dongfeng Motor**](https://www.dongfeng-global.com/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This paper develops a high-fidelity PHEV model integrating physical and data-driven approaches, and proposes a real-vehicle control framework that combines horizon-extended reinforcement learning with ECMS to improve practical energy management.
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Aplied Energy</div><img src='images/APEN_CPO_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Coupled velocity and energy management optimization of connected hybrid electric vehicles for maximum collective efficiency](https://www.sciencedirect.com/science/article/pii/S0306261924001752?via%3Dihub)
+
+**Hao Zhang**, Boli Chen, Nuo Lei, Bingbing Li, Chaoyi Chen, Zhi Wang
+
+- This paper proposes an efficient nested parallel optimization (NPO) strategy based on the ‘1+n’ mixed platoon concept, integrating Pontryagin’s minimum principle into a constrained control framework to jointly optimize speed planning and energy control of heterogeneous CAVs. The method reduces the control state-action dimensions while balancing traffic efficiency and fuel economy across intersections.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TTE</div><img src='images/IEEE_TTE_ITEM_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Integrated Thermal and Energy Management of Connected Hybrid Electric Vehicles Using Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/10233107)
+
+**Hao Zhang**, Boli Chen, Nuo Lei, Bingbing Li, Rulong Li, Zhi Wang
+
+[**Industrial Collaborator: Dongfeng Motor**](https://www.dongfeng-global.com/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This research proposes a model-free multistate deep reinforcement learning (DRL) algorithm for integrated thermal and energy management (ITEM) of multimode connected PHEVs, leveraging AI control and traffic preview to enhance EMS performance under cold climate conditions.
+</div>
+</div>
+
+
+
+# Preprints
+- **Zhang H**, Lei N, Li E S, et al. Multi-scale reinforcement learning of dynamic energy controller for connected electrified vehicles. IEEE Transactions on Intelligent Transportation Systems, 2025, to be published.
+
+# Selected Papers
+- **Zhang H**, Lei N, Chen B, et al. Bi-level transfer learning for lifelong intelligent energy management of electric vehicles. IEEE Transactions on Intelligent Transportation Systems, 2025, Early Access.
+- Lei N, **Zhang H**, Hu J, et al. Sim-to-real design and development of reinforcement learning-based energy management strategies for fuel cell electric vehicles. Applied Energy, 2025,393:126030.
+- Lei N, **Zhang H*** (Corresponding Author), Wang H, et al. Theory-Constrained Neural Network with Modular Interpretability for Fuel Cell Vehicle Modelling. IEEE Trans. on Vehicular Technology, 2025, Early Access.
+- **Zhang H**, Lei N, Chen B, et al. Modeling and control system optimization for electrified vehicles: A data-driven approach. Energy, 2024,311:133196.
+- **Zhang H**, Chen B, Lei N, et al. Coupled velocity and energy management optimization of connected hybrid electric vehicles for maximum collective efficiency. Applied Energy, 2024,360:122792.
+- Li B, Zhuang W, **Zhang H**, et al. Traffic-aware ecological cruising control for connected electric vehicle. IEEE Trans. on Transportation Electrification. 2024,10:5225-5240.
+- **Zhang H**, Chen B, Lei N, et al. Integrated thermal and energy management of connected hybrid electric vehicles using deep reinforcement learning. IEEE Trans. on Transportation Electrification, 2024,10:4594-4603.
+- Lei N, **Zhang H**, and Wang Z. A comprehensive study of various carbon-free vehicle propulsion systems utilizing ammonia-hydrogen synergy fuel. eTransportation, 2024,20:100332.
+- **Zhang H**, Lei N, Wang Z. Ammonia-hydrogen propulsion system for carbon-free heavy-duty vehicles. Applied Energy, 2024,369:123505.
+- Sun H, Li B, **Zhang H**, et al. Ecological electric vehicle platooning: an adaptive tube-based distributed model predictive control approach. IEEE Trans. on Transportation Electrification, 2024,11:1048-1060.
+- Lei N, **Zhang H**, Li R, et al. Physics-informed data-driven modeling approach for commuting-oriented hybrid powertrain optimization. Energy Conversion and Management, 2024;299:117814.
+- **Zhang H**, Lei N, Chen B, et al. Data-driven predictive energy consumption minimization strategy for connected plug-in hybrid electric vehicles. Energy, 2023,283:128514.
+- Li B, Zhuang W, **Zhang H**, et al. A comparative study of energy-oriented driving strategy for connected electric vehicles on freeways with varying slopes. Energy, 2023,289:129916.
+- Lei N, **Zhang H**, Wang H, et al. An improved co-optimization of component sizing and energy management for hybrid powertrains with high-fidelity model. IEEE Trans. on Vehicular Technology, 2023,72:15585-15596.
+- **Zhang H**, Liu S, Lei N, et al. Learning-based supervisory control of dual mode engine-based hybrid electric vehicle with reliance on multivariate trip information. Energy Conversion and Management, 2022,257:115450.
+- More publications can be found on my [Google Scholar homepage](https://scholar.google.com/citations?user=SCHOLAR_ID&user=qC9ScSkAAAAJ).
