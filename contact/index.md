@@ -50,4 +50,4 @@ group: contact
 ### We are located at the Engineering Research Building
 The [Engineering Research Building](https://www.uta.edu/maps?building=ERB) provides approximately 234,000 square feet of space for state-of-the-art, multidisciplinary research and teaching labs and classrooms, faculty and graduate student offices, administrative offices, conference rooms and support areas. The building’s design incorporates several energy-saving features, including green and light-reflecting roofs, window designs for improved use of available light, rain and condensate water capture and storage for landscaping, use of recycled materials, and others that will allow the facility to meet requirements for LEED® Gold certification. The building houses offices and labs for the Bioengineering and Computer Science and Engineering Departments, as well as offices and labs for the College of Science.
 
-<img class="img-fluid" src="/static/img/map_to_mission_bay.png" alt="Map of Mission Bay">
+<img class="img-fluid" src="/static/img/map_to_ERB.png" alt="Map of Mission Bay">
