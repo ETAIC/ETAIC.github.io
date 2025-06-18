@@ -35,11 +35,6 @@ group: contact
 
 <div class="col-md-4">
 
-#  <h4> Rebecca Niznak</h4>
-#  Executive Business Adminstrator for James Fraser and<br>
-#  [Department of Bioengineering and Therapeutic Sciences](http://bts.ucsf.edu)<br>
-#  email: rebecca.niznak2 (at) ucsf.edu<br>
-#  tel: <br>
 
 </div>
 
