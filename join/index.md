@@ -22,6 +22,6 @@ We welcome postdoctoral researchers with a strong background in control systems,
 
 ## Other Visitors
 
-In the past, our lab has enjoyed having foreign exchange students, interns, sabbatical visitors from academia and industry, and post-bac research specialists in the lab.  We are open to other arrangements as well. As we expect people to be fairly compensated for their work by their home institution or by us, we do not have volunteer positions available. 
+ETAIC Lab has hosted research interns, visiting scholars, and international collaborators from both academia and industry. If you are interested in a short-term research visit or internship, please contact us with a CV and a brief proposal outlining your interests and funding source. We do not offer unpaid volunteer positions.
 
-**We take high school students exclusively through UCSF affiliated programs, e.g. [SEP](http://sep.ucsf.edu/), [BAYS](https://pharm.ucsf.edu/bays).** We cannot accomodate high school students outside of these programs and do not have volunteer positions for high school students.
+
