@@ -4,7 +4,7 @@ timeline_name: #Fill this out if you'd like your name to appear differently on t
 startdate: [2025-03-01]
 enddate: #[YYYY-MM-DD]
 image: /static/img/members/Hao_photo.jpg #365 x 365 pixels, 72 dpi
-altimage: /static/img/members/Hao_photo_b.jpg #365 x 365 pixels, 72 dpi
+#altimage: /static/img/members/Hao_photo_b.jpg #365 x 365 pixels, 72 dpi
 position: Postdoc Research Fellow<br>Associate Director of ETAIC
 #subsequent:  update once you become an alumnus
 email: hao.zhang@uta.edu #Preferred public email address
