@@ -4,7 +4,7 @@ startdate: [2025-05-01]
 enddate: []
 image: /static/img/members/rikkin_photo.jpg #365 x 365 pixels, 72 dpi
 altimage: /static/img/members/rikkin_photo_b.jpg #365 x 365 pixels, 72 dpi
-position: Graduate Student<br>Research Assistant
+position: Graduate Student<br>Research Assistant at ETAIC
 #subsequent:  update once you become an alumnus
 email: rxp6313@mavs.uta.edu
 scholar:
