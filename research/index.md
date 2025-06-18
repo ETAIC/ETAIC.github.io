@@ -32,6 +32,8 @@ Our research addressed the core challenges in automated driving, including long-
 - Hybrid Intelligence: Integrating structured models with real-world data to improve adaptability and robustness.
 - Hierarchical Architecture: Combining strategic planning with reactive control through cognitive and embodied intelligence layers.
 - Safety by Design: Embedding multi-layer safety mechanisms to ensure both proactive and reactive hazard mitigation.
+<br>
+<br>
 
 </div>
 <div class="col-md-5 order-md-2 align-self-center">
