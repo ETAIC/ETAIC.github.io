@@ -5,6 +5,7 @@ enddate: #[XXXX-06-01]
 image: /static/img/members/Eric_photo.jpg
 altimage: /static/img/members/Eric_photo_b.jpg
 position: **Principal Investigator**<br>Distinguished University Professor<br>Director of ETAIC
+
 #current:
 email: hongtei.tseng@uta.edu
 scholar: UWnwlu4AAAAJ
