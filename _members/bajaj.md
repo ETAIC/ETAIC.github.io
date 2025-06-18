@@ -10,7 +10,7 @@ position: Postdoc Research Fellow<br>Associate Director of ETAIC
 email: zhang-h19@tsinghua.org.cn #Preferred public email address
 scholar: qC9ScSkAAAAJ #Google Scholar User ID
 website:
-UCSF: https://haozhang-thu.github.io/
+UCSF: https://www.uta.edu/academics/faculty/profile?user=hao.zhang
 github: 
 orcid: 0000-0001-5395-4017
 description: "
