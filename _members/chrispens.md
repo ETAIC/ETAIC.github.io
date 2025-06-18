@@ -12,7 +12,7 @@ email: axg5247@mavs.uta.edu
 #scholar: K27vRsMAAAAJ 
 #website: https://k-chrispens.github.io
 #UCSF:
-twitter: karsonchrispens
+#twitter: karsonchrispens
 #linkedin: karson-chrispens-032877141
 #github: k-chrispens
 #orcid: 0000-0002-2115-3132
