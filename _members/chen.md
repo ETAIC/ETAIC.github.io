@@ -18,12 +18,8 @@ description: "Mr. Panchal is a Graduate Research Assistant and M.S. thesis stude
 
 
 His engineering experience includes embedded systems, bare-metal programming, real-time 
-operating environments, robotic middleware, and sensor fusion for perception and control. He 
-designs and implements full-stack autonomous systems that integrate AI algorithms with 
-reliable low-level execution. 
+operating environments, robotic middleware, and sensor fusion for perception and control. He designs and implements full-stack autonomous systems that integrate AI algorithms with reliable low-level execution. 
 
 
-Previously, he contributed to research at the Indian Space Research Organisation (ISRO), 
-where he worked on embedded software and Linux-based systems for mission-critical 
-applications."
+Previously, he contributed to research at the [Indian Space Research Organisation (ISRO)](https://www.isro.gov.in/), where he worked on embedded software and Linux-based systems for mission-critical applications."
 ---
