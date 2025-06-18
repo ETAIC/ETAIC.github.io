@@ -75,7 +75,9 @@ Subsequently: {{member.subsequent}} <br>
 </div>
 {% endfor %}
 
+<br><br>
 <br>
+
 ## Undergraduate Interns
 {% for undergraduate in sorted %}
 
