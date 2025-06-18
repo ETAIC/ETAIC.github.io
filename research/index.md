@@ -32,7 +32,7 @@ Our research addressed the core challenges in automated driving, including long-
 - Hybrid Intelligence: Integrating structured models with real-world data to improve adaptability and robustness.
 - Hierarchical Architecture: Combining strategic planning with reactive control through cognitive and embodied intelligence layers.
 - Safety by Design: Embedding multi-layer safety mechanisms to ensure both proactive and reactive hazard mitigation.
-<br>
+<br><br>
 <br>
 
 </div>
@@ -44,13 +44,12 @@ Our research addressed the core challenges in automated driving, including long-
 </div>
 <div class="row">
 <br>
-<br><br>
+
 
 
 
 
 ### Multi-Agent Reinforcement Learning and Human-Robot Collaboration in Robot Systems
-
 <div class="col-md-7 order-md-2">
 
 We explore how to empower robots with the ability to make robust decisions through learning in uncertain environments, and to achieve efficient, safe, and trustworthy human-robot interaction. This includes how to ensure that robots maintain high performance and safety when facing unknown or abnormal situations, and how to utilize cutting-edge artificial intelligence technologies (such as reinforcement learning and large language models) to facilitate deeper autonomous learning and adaptation in robots, thereby enabling natural coexistence and collaboration with humans, and laying the foundation for future intelligent automation.
