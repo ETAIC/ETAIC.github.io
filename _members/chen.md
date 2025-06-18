@@ -1,5 +1,5 @@
 ---
-name: Rikkin Pankaj Panchal
+name: Rikkin Panchal
 startdate: [2025-05-01]
 enddate: []
 image: /static/img/members/rikkin_photo.jpg #365 x 365 pixels, 72 dpi
@@ -14,17 +14,16 @@ twitter:
 linkedin:
 github:
 
-description: "Daphne graduated from UCLA with a degree in Biophysics. As an undergraduate, she studied the effects of chaotropes and kosmotropes on protein hydration layers under the guidance of [Dr. Giovanni Zocchi](https://zocchi.physics.ucla.edu).
+description: "Mr. Panchal is a Graduate Research Assistant and M.S. thesis student in Electrical Engineering, specializing in autonomous vehicle research. His work focuses on artificial intelligence, machine learning, deep learning, reinforcement learning, computer vision, object detection, lane detection, semantic segmentation, SLAM, and real-time perception for self-driving systems. He develops intelligent navigation and control frameworks that combine data-driven learning with robust system behaviour. 
 
 
-She discovered her interest in structural biology when she spent a summer working under [Dr. Kliment Verba](https://verbalab.ucsf.edu) at UCSF.
+His engineering experience includes embedded systems, bare-metal programming, real-time 
+operating environments, robotic middleware, and sensor fusion for perception and control. He 
+designs and implements full-stack autonomous systems that integrate AI algorithms with 
+reliable low-level execution. 
 
 
-As a graduate student, Daphne is characterizing anti-CRISPR proteins in collaboration with the [Bondy-Denomy Lab](https://bondydenomylab.com/), as well as pursuing structural biology projects related to the phage-bacteria arms race. 
-
-
-Outside of lab, Daphne enjoys birding, reading, and playing with her cat [Lilly](/pets/#Lilly).
-
-
-Daphne is supported by a graduate fellowship from the [UCSF Discovery Fellows Program](https://graduate.ucsf.edu/discovery-fellows-program)."
+Previously, he contributed to research at the Indian Space Research Organisation (ISRO), 
+where he worked on embedded software and Linux-based systems for mission-critical 
+applications."
 ---
