@@ -16,9 +16,10 @@ twitter: karsonchrispens
 #linkedin: karson-chrispens-032877141
 #github: k-chrispens
 #orcid: 0000-0002-2115-3132
-description: "Karson graduated from Walla Walla University with a degree in Bioengineering. During his undergraduate training, he worked on methods for high-throughput determination of antibody binding affinities under the mentorship of [Dr. Timothy Whitehead](https://www.colorado.edu/faculty/whitehead/) at CU Boulder. 
+description: "Ms. Aashi Goyani is a Graduate Research Assistant and M.S. thesis student in the Department of Computer Science and Engineering at the University of Texas at Arlington. Her research focuses on deep learning and computer vision for autonomous systems, with particular emphasis on camera calibration, 3D reconstruction, and visual perception under real-world conditions.
 
-Now, in the Fraser Lab, Karson aims to study protein conformational ensembles using the rich experimental data in structural biology in combination with generative modeling.
+She has hands-on experience in developing and deploying deep neural networks for object detection, semantic segmentation, and visual tracking. Her work integrates advanced calibration techniques with learning-based perception models to improve spatial understanding and system accuracy in robotics and autonomous platforms. Aashi is also experienced in multi-sensor data processing, including LiDAR-camera fusion and visual-inertial odometry, enabling precise localization and mapping in dynamic environments.
 
-Outside of lab, Karson enjoys biking, running, skiing, listening to jazz, and board games. He also drinks lots of tea and coffee."
+Her goal is to bridge the gap between perception algorithms and practical deployment, building intelligent systems that are both accurate and reliable for real-time applications.
+"
 ---
