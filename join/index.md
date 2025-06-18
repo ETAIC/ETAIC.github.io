@@ -6,7 +6,7 @@ group: join
 
 # Join the ETAIC Lab
 The ETAIC Lab is committed to fostering an inclusive, collaborative, and supportive research environment that values both technical excellence and human connection.
-##### Read more about [our lab research diractions.](/research/)
+##### Read more about [our lab research directions.](/research/)
 
 We are always open to hearing from highly motivated individuals who share our passion for intelligent autonomy, control theory, and human-centered robotics. Even if a specific opening is not posted, we encourage interested candidates to reach out and start a conversation about research fit and career goals. We strive to provide excellent training across a wide range of research and experimental techniques. If interested please send your CV/Resume to [Prof. H. Eric Tseng](/contact).
 
