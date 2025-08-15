@@ -6,7 +6,6 @@ group: contact
 
 # Contact the ETAIC Lab
 
-
 <div class="row">
 
 <div class="col-md-4">
@@ -18,26 +17,35 @@ group: contact
   [National Academy of Engineering Member](https://www.nae.edu/)<br>
   416 S. Yates St., Nedderman Hall<br>
   Arlington, TX 76010<br>
-  Contact: hongtei.tseng@uta.edu <br>
+
+  <!-- 联系表单 -->
+  <form action="https://formspree.io/f/mayzkxyz" method="POST">
+    <label>Your Name:<br><input type="text" name="name" required></label><br>
+    <label>Your Email:<br><input type="email" name="email" required></label><br>
+    <label>Message:<br><textarea name="message" rows="5" required></textarea></label><br>
+    <button type="submit">Send</button>
+  </form>
 
 </div>
 
 <div class="col-md-4">
 
-  <h4>Lab Area </h4>
+  <h4>Lab Area</h4>
   [Engineering Research Building](https://www.uta.edu/maps?building=ERB)<br>
   416 S. Yates St., ERB 103<br>
   Arlington, TX 76010<br>
-  Contact: hao.zhang@uta.edu<br>
 
+  <!-- 这里也加一个表单 -->
+  <form action="https://formspree.io/f/mayzkxyz" method="POST">
+    <label>Your Name:<br><input type="text" name="name" required></label><br>
+    <label>Your Email:<br><input type="email" name="email" required></label><br>
+    <label>Message:<br><textarea name="message" rows="5" required></textarea></label><br>
+    <button type="submit">Send</button>
+  </form>
 
 </div>
 
-<div class="col-md-4">
-
-
-</div>
-
+<div class="col-md-4"></div>
 </div>
 
 
