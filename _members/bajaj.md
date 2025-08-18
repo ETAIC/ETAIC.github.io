@@ -11,7 +11,7 @@ email: hao.zhang@uta.edu<br>haoz4@andrew.cmu.edu #Preferred public email address
 scholar: qC9ScSkAAAAJ #Google Scholar User ID
 website:
 UCSF: https://haozhang-thu.github.io/
-github: https://www.researchgate.net/profile/Hao-Zhang-288?ev=prf_overview
+github: 
 orcid: 0000-0001-5395-4017
 description: "
 Dr. Zhang is the Associate Director of the ETAIC (Embodied Technology for Autonomy, Intelligence, and Control) Research Lab at University of Texas at Arlington, working with [Prof. Eric Tseng](https://www.uta.edu/academics/faculty/profile?user=hongtei.tseng#Publications) (member of the National Academy of Engineering). He is currently conducting postdoctoral research in the [Safe AI Lab](https://safeai-lab.github.io/) at Carnegie Mellon University, working with [Prof. Ding Zhao](https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html). He received his Ph.D. from School of Vehicle and Mobility at Tsinghua University, co-advised by [Prof. Zhi Wang](https://www.svm.tsinghua.edu.cn/essay/74/1854.html) and [Prof. Shengbo Eben Li](https://www.svm.tsinghua.edu.cn/essay/80/1812.html).
