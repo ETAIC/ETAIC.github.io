@@ -4,7 +4,7 @@ startdate: [2024-06-01]
 enddate: #[XXXX-06-01]
 image: /static/img/members/Eric_photo.jpg
 altimage: /static/img/members/Eric_photo_b.jpg
-position: Principal Investigator<br><br>Distinguished University Professor<br>Director of ETAIC
+position: Principal Investigator<br><br>Director of ETAIC<br>Distinguished University Professor
 
 #current:
 email: hongtei.tseng@uta.edu
