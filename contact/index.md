@@ -6,8 +6,10 @@ group: contact
 
 # Contact the ETAIC Lab
 
-<div class="row mb-5">
-    <div class="col-md-6">
+<div class="container" style="max-width: 960px; margin: auto; padding: 20px;">
+
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 40px; gap: 20px;">
+    <div style="flex: 1; min-width: 300px;">
         <h4>H. Eric Tseng, Ph.D.</h4>
         <p>
             Professor<br>
@@ -18,8 +20,7 @@ group: contact
             Arlington, TX 76010
         </p>
     </div>
-
-    <div class="col-md-6">
+    <div style="flex: 1; min-width: 300px;">
         <h4>Lab Area</h4>
         <p>
             <a href="https://www.uta.edu/maps?building=ERB" target="_blank">Engineering Research Building</a><br>
@@ -30,54 +31,46 @@ group: contact
     </div>
 </div>
 
-<div class="row justify-content-center">
-    <div class="col-md-8">
-        <h4>PhD Application Form</h4>
-        <form action="https://formspree.io/f/mvgqnnnq" method="POST">
-            <div class="form-group mb-3">
-                <label for="name">Full Name</label>
-                <input type="text" class="form-control" id="name" name="name" required>
-            </div>
+<div>
+    <h4>PhD Application Form</h4>
+    <form action="https://formspree.io/f/mvgqnnnq" method="POST">
+        <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; margin-bottom: 5px;">Full Name</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px;">Email</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="number" style="display: block; margin-bottom: 5px;">Contact Number</label>
+            <input type="tel" id="number" name="number" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="school" style="display: block; margin-bottom: 5px;">Current / Last University</label>
+            <input type="text" id="school" name="school" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="degree" style="display: block; margin-bottom: 5px;">Highest Degree</label>
+            <input type="text" id="degree" name="degree" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="grad-year" style="display: block; margin-bottom: 5px;">Graduation Year</label>
+            <input type="text" id="grad-year" name="grad-year" placeholder="YYYY" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="interest" style="display: block; margin-bottom: 5px;">Research Interests</label>
+            <textarea id="interest" name="interest" rows="4" placeholder="Briefly describe your interests" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+        </div>
 
-            <div class="form-group mb-3">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-
-            <div class="form-group mb-3">
-                <label for="number">Contact Number</label>
-                <input type="tel" class="form-control" id="number" name="number">
-            </div>
-
-            <div class="form-group mb-3">
-                <label for="school">Current / Last University</label>
-                <input type="text" class="form-control" id="school" name="school">
-            </div>
-
-            <div class="form-group mb-3">
-                <label for="degree">Highest Degree</label>
-                <input type="text" class="form-control" id="degree" name="degree">
-            </div>
-
-            <div class="form-group mb-3">
-                <label for="grad-year">Graduation Year</label>
-                <input type="text" class="form-control" id="grad-year" name="grad-year" placeholder="YYYY">
-            </div>
-
-            <div class="form-group mb-3">
-                <label for="interest">Research Interests</label>
-                <textarea class="form-control" id="interest" name="interest" rows="4" placeholder="Briefly describe your interests"></textarea>
-            </div>
-
-            <input type="hidden" name="_next" value="https://your-site.com/thanks.html">
-
-            <input type="text" name="_gotcha" style="display:none !important">
-
-            <button type="submit" class="btn btn-primary">Submit Application</button>
-        </form>
-    </div>
+        <input type="hidden" name="_next" value="https://your-site.com/thanks.html">
+        <input type="text" name="_gotcha" style="display:none !important">
+        
+        <button type="submit" style="background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer;">Submit Application</button>
+    </form>
 </div>
 
+</div>
 
 
 # Directions to the ETAIC Lab
