@@ -6,7 +6,6 @@ group: contact
 
 # Contact the ETAIC Lab
 
-
 <div class="row">
 
 <div class="col-md-4">
@@ -18,7 +17,7 @@ group: contact
   [National Academy of Engineering Member](https://www.nae.edu/)<br>
   416 S. Yates St., Nedderman Hall<br>
   Arlington, TX 76010<br>
-  Contact: hongtei.tseng[AT]uta.edu <br>
+  <!-- Email intentionally hidden -->
 
 </div>
 
@@ -34,10 +33,43 @@ group: contact
 
 <div class="col-md-4">
 
+  <h4>PhD Application Form</h4>
+
+  <form action="https://formspree.io/f/mvgqnnnq" method="POST">
+    <label for="name">Full Name</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="number">Contact Number</label><br>
+    <input type="text" id="number" name="number"><br><br>
+
+    <label for="school">Current / Last University</label><br>
+    <input type="text" id="school" name="school"><br><br>
+
+    <label for="degree">Highest Degree</label><br>
+    <input type="text" id="degree" name="degree"><br><br>
+
+    <label for="grad-year">Graduation Year</label><br>
+    <input type="text" id="grad-year" name="grad-year" placeholder="YYYY"><br><br>
+
+    <label for="interest">Research Interests</label><br>
+    <textarea id="interest" name="interest" placeholder="Briefly describe your interests"></textarea><br><br>
+
+    <!-- Redirect after submission -->
+    <input type="hidden" name="_redirect" value="https://your-site.com/thanks.html">
+
+    <!-- Honeypot field to reduce spam -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <button type="submit">Submit Application</button>
+  </form>
 
 </div>
 
 </div>
+
 
 
 # Directions to the ETAIC Lab
