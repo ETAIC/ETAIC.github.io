@@ -5,7 +5,7 @@ startdate: [2025-06-10]
 enddate: #[]
 image: /static/img/members/Aashi_photo.jpg
 altimage: /static/img/members/Aashi_photo_b.jpg
-position: Graduate Student<br>Research Assistant at ETAIC
+position: <br>Graduate Student<br>Research Assistant at ETAIC
 #timeline_positions: ["Graduate Student (2019-2023)]
 #subsequent:  update once you become an alumnus
 email: axg5247@mavs.uta.edu
