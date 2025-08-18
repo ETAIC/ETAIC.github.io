@@ -80,8 +80,8 @@ Contact: hao.zhang[AT]uta.edu
 </div>
 
 <div style="margin-bottom: 15px;">
-<label for="scholar-link" style="display: block; margin-bottom: 5px;">Link to your Google Scholar profile *</label>
-<input type="url" id="scholar-link" name="google_scholar_profile" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" placeholder="https://scholar.google.com/...">
+<label for="scholar-link" style="display: block; margin-bottom: 5px;">Link to your Google Scholar profile (Optional)</label>
+<input type="url" id="scholar-link" name="google_scholar_profile" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" placeholder="https://scholar.google.com/...">
 </div>
 
 <div style="margin-bottom: 15px;">
@@ -102,14 +102,14 @@ Contact: hao.zhang[AT]uta.edu
 </div>
 
 <div style="margin-bottom: 15px;">
-<label style="display: block; margin-bottom: 5px;">3 Reference Contacts *</label>
+<label style="display: block; margin-bottom: 5px;">3 Reference Contacts (Optional)</label>
 <p style="font-size: 0.9em; color: #666; margin-top: -5px;">Include name, title, and email for each.</p>
-<label for="ref1" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 1 *</label>
-<input type="text" id="ref1" name="reference_1" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
-<label for="ref2" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 2 *</label>
-<input type="text" id="ref2" name="reference_2" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
-<label for="ref3" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 3 *</label>
-<input type="text" id="ref3" name="reference_3" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+<label for="ref1" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 1</label>
+<input type="text" id="ref1" name="reference_1" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
+<label for="ref2" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 2</label>
+<input type="text" id="ref2" name="reference_2" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
+<label for="ref3" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 3</label>
+<input type="text" id="ref3" name="reference_3" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
 </div>
 
 <div style="margin-bottom: 15px;">
@@ -128,7 +128,6 @@ Contact: hao.zhang[AT]uta.edu
 <button type="submit" style="background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer;">Submit Application</button>
 </form>
 </div>
-
 
 # Directions to the ETAIC Lab
 ### We are located at the Engineering Research Building
