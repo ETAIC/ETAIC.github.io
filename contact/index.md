@@ -80,7 +80,7 @@ Contact: hao.zhang[AT]uta.edu
 </div>
 
 <div style="margin-bottom: 15px;">
-<label for="scholar-link" style="display: block; margin-bottom: 5px;">Link to your Google Scholar profile (Optional)</label>
+<label for="scholar-link" style="display: block; margin-bottom: 5px;">Link to your Google Scholar profile</label>
 <input type="url" id="scholar-link" name="google_scholar_profile" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" placeholder="https://scholar.google.com/...">
 </div>
 
@@ -91,7 +91,7 @@ Contact: hao.zhang[AT]uta.edu
 </div>
 
 <div style="margin-bottom: 15px;">
-<label style="display: block; margin-bottom: 5px;">Representative Papers (Optional)</label>
+<label style="display: block; margin-bottom: 5px;">Representative Papers</label>
 <p style="font-size: 0.9em; color: #666; margin-top: -5px;">Include citation reference and publicly accessible links to the papers.</p>
 <label for="paper1" style="display: block; margin-bottom: 5px; font-weight: normal;">Paper 1</label>
 <input type="text" id="paper1" name="paper_1" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
@@ -102,7 +102,7 @@ Contact: hao.zhang[AT]uta.edu
 </div>
 
 <div style="margin-bottom: 15px;">
-<label style="display: block; margin-bottom: 5px;">3 Reference Contacts (Optional)</label>
+<label style="display: block; margin-bottom: 5px;">3 Reference Contacts</label>
 <p style="font-size: 0.9em; color: #666; margin-top: -5px;">Include name, title, and email for each.</p>
 <label for="ref1" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 1</label>
 <input type="text" id="ref1" name="reference_1" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
