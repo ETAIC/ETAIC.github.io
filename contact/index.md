@@ -6,8 +6,6 @@ group: contact
 
 # Contact the ETAIC Lab
 
-<div class="container" style="max-width: 960px; margin: auto; padding: 20px;">
-
 <div style="display: flex; flex-wrap: wrap; margin-bottom: 40px; gap: 20px;">
 <div style="flex: 1; min-width: 300px;">
 <h4>H. Eric Tseng, Ph.D.</h4>
@@ -34,33 +32,94 @@ Contact: hao.zhang[AT]uta.edu
 <div>
 <h4>PhD Application Form</h4>
 <form action="https://formspree.io/f/mvgqnnnq" method="POST">
+
 <div style="margin-bottom: 15px;">
-<label for="name" style="display: block; margin-bottom: 5px;">Full Name</label>
-<input type="text" id="name" name="name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+<label for="fname" style="display: block; margin-bottom: 5px;">First Name *</label>
+<input type="text" id="fname" name="first_name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
 </div>
+
 <div style="margin-bottom: 15px;">
-<label for="email" style="display: block; margin-bottom: 5px;">Email</label>
+<label for="lname" style="display: block; margin-bottom: 5px;">Last Name *</label>
+<input type="text" id="lname" name="last_name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+</div>
+
+<div style="margin-bottom: 15px;">
+<label for="email" style="display: block; margin-bottom: 5px;">Email Address *</label>
 <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
 </div>
+
 <div style="margin-bottom: 15px;">
-<label for="number" style="display: block; margin-bottom: 5px;">Contact Number</label>
-<input type="tel" id="number" name="number" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+<label for="age" style="display: block; margin-bottom: 5px;">Age</label>
+<input type="text" id="age" name="age" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
 </div>
+
 <div style="margin-bottom: 15px;">
-<label for="school" style="display: block; margin-bottom: 5px;">Current / Last University</label>
-<input type="text" id="school" name="school" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+<label for="start-date" style="display: block; margin-bottom: 5px;">Desired Start Date *</label>
+<input type="date" id="start-date" name="desired_start_date" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
 </div>
+
 <div style="margin-bottom: 15px;">
-<label for="degree" style="display: block; margin-bottom: 5px;">Highest Degree</label>
-<input type="text" id="degree" name="degree" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+<label for="institutions" style="display: block; margin-bottom: 5px;">Past and Current University/Institutions *</label>
+<input type="text" id="institutions" name="institutions" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
 </div>
+
 <div style="margin-bottom: 15px;">
-<label for="grad-year" style="display: block; margin-bottom: 5px;">Graduation Year</label>
-<input type="text" id="grad-year" name="grad-year" placeholder="YYYY" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+<label for="department" style="display: block; margin-bottom: 5px;">Department *</label>
+<input type="text" id="department" name="department" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
 </div>
+
 <div style="margin-bottom: 15px;">
-<label for="interest" style="display: block; margin-bottom: 5px;">Research Interests</label>
-<textarea id="interest" name="interest" rows="4" placeholder="Briefly describe your interests" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+<label for="grad-date" style="display: block; margin-bottom: 5px;">Graduation Date (approximate/expected is OK) *</label>
+<input type="date" id="grad-date" name="graduation_date" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+</div>
+
+<div style="margin-bottom: 15px;">
+<label for="gpa" style="display: block; margin-bottom: 5px;">GPA *</label>
+<p style="font-size: 0.9em; color: #666; margin-top: -5px;">As it appears on your transcript.</p>
+<input type="text" id="gpa" name="gpa" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+</div>
+
+<div style="margin-bottom: 15px;">
+<label for="scholar-link" style="display: block; margin-bottom: 5px;">Link to your Google Scholar profile *</label>
+<input type="url" id="scholar-link" name="google_scholar_profile" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" placeholder="https://scholar.google.com/...">
+</div>
+
+<div style="margin-bottom: 15px;">
+<label for="research-interests" style="display: block; margin-bottom: 5px;">Please briefly describe your future research interests *</label>
+<p style="font-size: 0.9em; color: #666; margin-top: -5px;">Include what topics/projects you are interested in pursuing during your post-doc.</p>
+<textarea id="research-interests" name="research_interests" rows="5" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+</div>
+
+<div style="margin-bottom: 15px;">
+<label style="display: block; margin-bottom: 5px;">Representative Papers (Optional)</label>
+<p style="font-size: 0.9em; color: #666; margin-top: -5px;">Include citation reference and publicly accessible links to the papers.</p>
+<label for="paper1" style="display: block; margin-bottom: 5px; font-weight: normal;">Paper 1</label>
+<input type="text" id="paper1" name="paper_1" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
+<label for="paper2" style="display: block; margin-bottom: 5px; font-weight: normal;">Paper 2</label>
+<input type="text" id="paper2" name="paper_2" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
+<label for="paper3" style="display: block; margin-bottom: 5px; font-weight: normal;">Paper 3</label>
+<input type="text" id="paper3" name="paper_3" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+</div>
+
+<div style="margin-bottom: 15px;">
+<label style="display: block; margin-bottom: 5px;">3 Reference Contacts *</label>
+<p style="font-size: 0.9em; color: #666; margin-top: -5px;">Include name, title, and email for each.</p>
+<label for="ref1" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 1 *</label>
+<input type="text" id="ref1" name="reference_1" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
+<label for="ref2" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 2 *</label>
+<input type="text" id="ref2" name="reference_2" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px;">
+<label for="ref3" style="display: block; margin-bottom: 5px; font-weight: normal;">Reference 3 *</label>
+<input type="text" id="ref3" name="reference_3" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+</div>
+
+<div style="margin-bottom: 15px;">
+<label for="research-statement" style="display: block; margin-bottom: 5px;">Short Research Statement (Optional)</label>
+<textarea id="research-statement" name="research_statement" rows="5" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+</div>
+
+<div style="margin-bottom: 15px;">
+<label for="github" style="display: block; margin-bottom: 5px;">Your Github (Optional)</label>
+<input type="url" id="github" name="github_profile" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" placeholder="https://github.com/your-username">
 </div>
 
 <input type="hidden" name="_next" value="https://your-site.com/thanks.html">
@@ -68,8 +127,6 @@ Contact: hao.zhang[AT]uta.edu
 
 <button type="submit" style="background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer;">Submit Application</button>
 </form>
-</div>
-
 </div>
 
 
