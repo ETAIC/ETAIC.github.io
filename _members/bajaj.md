@@ -5,7 +5,7 @@ startdate: [2025-03-01]
 enddate: #[YYYY-MM-DD]
 image: /static/img/members/Hao_photo.jpg #365 x 365 pixels, 72 dpi
 altimage: /static/img/members/Hao_photo_b.jpg #365 x 365 pixels, 72 dpi
-position: <br><br>Associate Director of ETAIC Lab<br>Research Associate
+position: <br>Associate Director of ETAIC Lab<br>Research Associate
 #subsequent:  update once you become an alumnus
 email: hao.zhang@uta.edu<br>haoz4@andrew.cmu.edu #Preferred public email address
 scholar: qC9ScSkAAAAJ #Google Scholar User ID
