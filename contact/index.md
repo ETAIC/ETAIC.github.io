@@ -6,68 +6,76 @@ group: contact
 
 # Contact the ETAIC Lab
 
-<div class="row">
+<div class="row mb-5">
+    <div class="col-md-6">
+        <h4>H. Eric Tseng, Ph.D.</h4>
+        <p>
+            Professor<br>
+            Principal Investigator<br>
+            <a href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/electrical" target="_blank">Department of Electrical Engineering</a><br>
+            <a href="https://www.nae.edu/" target="_blank">National Academy of Engineering Member</a><br>
+            416 S. Yates St., Nedderman Hall<br>
+            Arlington, TX 76010
+        </p>
+    </div>
 
-<div class="col-md-4">
-
-  <h4>H. Eric Tseng, Ph.D.</h4>
-  Professor<br>
-  Principal Investigator<br>
-  [Department of Electrical Engineering](https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/electrical)<br>
-  [National Academy of Engineering Member](https://www.nae.edu/)<br>
-  416 S. Yates St., Nedderman Hall<br>
-  Arlington, TX 76010<br>
-  <!-- Email intentionally hidden -->
-
+    <div class="col-md-6">
+        <h4>Lab Area</h4>
+        <p>
+            <a href="https://www.uta.edu/maps?building=ERB" target="_blank">Engineering Research Building</a><br>
+            416 S. Yates St., ERB 103<br>
+            Arlington, TX 76010<br>
+            Contact: hao.zhang[AT]uta.edu
+        </p>
+    </div>
 </div>
 
-<div class="col-md-4">
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h4>PhD Application Form</h4>
+        <form action="https://formspree.io/f/mvgqnnnq" method="POST">
+            <div class="form-group mb-3">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
 
-  <h4>Lab Area </h4>
-  [Engineering Research Building](https://www.uta.edu/maps?building=ERB)<br>
-  416 S. Yates St., ERB 103<br>
-  Arlington, TX 76010<br>
-  Contact: hao.zhang[AT]uta.edu<br>
+            <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
 
-</div>
+            <div class="form-group mb-3">
+                <label for="number">Contact Number</label>
+                <input type="tel" class="form-control" id="number" name="number">
+            </div>
 
-<div class="col-md-4">
+            <div class="form-group mb-3">
+                <label for="school">Current / Last University</label>
+                <input type="text" class="form-control" id="school" name="school">
+            </div>
 
-  <h4>PhD Application Form</h4>
+            <div class="form-group mb-3">
+                <label for="degree">Highest Degree</label>
+                <input type="text" class="form-control" id="degree" name="degree">
+            </div>
 
-  <form action="https://formspree.io/f/mvgqnnnq" method="POST">
-    <label for="name">Full Name</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+            <div class="form-group mb-3">
+                <label for="grad-year">Graduation Year</label>
+                <input type="text" class="form-control" id="grad-year" name="grad-year" placeholder="YYYY">
+            </div>
 
-    <label for="email">Email</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+            <div class="form-group mb-3">
+                <label for="interest">Research Interests</label>
+                <textarea class="form-control" id="interest" name="interest" rows="4" placeholder="Briefly describe your interests"></textarea>
+            </div>
 
-    <label for="number">Contact Number</label><br>
-    <input type="text" id="number" name="number"><br><br>
+            <input type="hidden" name="_next" value="https://your-site.com/thanks.html">
 
-    <label for="school">Current / Last University</label><br>
-    <input type="text" id="school" name="school"><br><br>
+            <input type="text" name="_gotcha" style="display:none !important">
 
-    <label for="degree">Highest Degree</label><br>
-    <input type="text" id="degree" name="degree"><br><br>
-
-    <label for="grad-year">Graduation Year</label><br>
-    <input type="text" id="grad-year" name="grad-year" placeholder="YYYY"><br><br>
-
-    <label for="interest">Research Interests</label><br>
-    <textarea id="interest" name="interest" placeholder="Briefly describe your interests"></textarea><br><br>
-
-    <!-- Redirect after submission -->
-    <input type="hidden" name="_redirect" value="https://your-site.com/thanks.html">
-
-    <!-- Honeypot field to reduce spam -->
-    <input type="text" name="_gotcha" style="display:none">
-
-    <button type="submit">Submit Application</button>
-  </form>
-
-</div>
-
+            <button type="submit" class="btn btn-primary">Submit Application</button>
+        </form>
+    </div>
 </div>
 
 
