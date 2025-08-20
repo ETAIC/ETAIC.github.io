@@ -7,7 +7,7 @@ altimage: /static/img/members/Eric_photo_b.jpg
 position: Principal Investigator<br><br>Director of ETAIC Lab<br>National Academy of Engineering Member<br>Distinguished University Professor
 
 #current:
-email: hongtei.tseng@uta.edu
+email: hongtei.tseng[at]uta[dot]edu
 scholar: UWnwlu4AAAAJ
 UCSF: https://www.uta.edu/academics/faculty/profile?user=hongtei.tseng
 orcid: 0000-0001-5087-9592
