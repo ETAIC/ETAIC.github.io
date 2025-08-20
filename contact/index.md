@@ -31,7 +31,7 @@ Contact: hao.zhang[AT]uta.edu
 
 <div>
 <h4>PhD Application Form</h4>
-<form action="https://formspree.io/f/mvgqnnnq" method="POST">
+<form action="https://formspree.io/f/mgvzjydk" method="POST">
 
 <div style="margin-bottom: 15px;">
 <label for="fname" style="display: block; margin-bottom: 5px;">First Name *</label>
