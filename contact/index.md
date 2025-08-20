@@ -17,7 +17,7 @@ National Academy of Engineering Member<br>
 <a href="https://www.nae.edu/" target="_blank">National Academy of Engineering Member</a><br>
 416 S. Yates St., Nedderman Hall<br>
 Arlington, TX 76010<br>
-Contact: hongtei[DOT]tseng[AT]uta[DOT]edu
+Contact: hongtei.tseng[at]uta[dot]edu
 </p>
 </div>
 <div style="flex: 1; min-width: 300px;">
@@ -26,7 +26,7 @@ Contact: hongtei[DOT]tseng[AT]uta[DOT]edu
 <a href="https://www.uta.edu/maps?building=ERB" target="_blank">Engineering Research Building</a><br>
 416 S. Yates St., ERB 103<br>
 Arlington, TX 76010<br>
-Contact: hao[DOT]zhang[AT]uta[DOT]edu
+Contact: hao.zhang[at]uta[dot]edu
 </p>
 </div>
 </div>
