@@ -11,17 +11,17 @@ The long-term goals of our research are to advance intelligent autonomous system
 
 <div class="row text-center" style="margin-top: 30px; margin-bottom: 30px;">
   <div class="col-md-4">
-    <img src="images/demo1.GIF" alt="Demo 1" class="img-fluid" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; object-fit: cover;">
+    <img src="/images/demo1.GIF" alt="Demo 1" class="img-fluid" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; object-fit: cover;">
     <div style="color: #666; font-size: 0.85em; margin-top: 8px; line-height: 1.2;">Multi-Agent Safe Decision Making</div>
   </div>
 
   <div class="col-md-4">
-    <img src="images/demo2.GIF" alt="Demo 2" class="img-fluid" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; object-fit: cover;">
+    <img src="/images/demo2.GIF" alt="Demo 2" class="img-fluid" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; object-fit: cover;">
     <div style="color: #666; font-size: 0.85em; margin-top: 8px; line-height: 1.2;">Trustworthy AI Partner</div>
   </div>
 
   <div class="col-md-4">
-    <img src="images/demo3.GIF" alt="Demo 3" class="img-fluid" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; object-fit: cover;">
+    <img src="/images/demo3.GIF" alt="Demo 3" class="img-fluid" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; object-fit: cover;">
     <div style="color: #666; font-size: 0.85em; margin-top: 8px; line-height: 1.2;">Contact-Rich Locomotion Control</div>
   </div>
 </div>
