@@ -7,7 +7,7 @@ image: /static/img/members/Hao_photo.jpg #365 x 365 pixels, 72 dpi
 altimage: /static/img/members/Hao_photo_b.jpg #365 x 365 pixels, 72 dpi
 position: <br>Associate Director of ETAIC Lab<br>Research Associate
 #subsequent:  update once you become an alumnus
-email: hao.zhang@uta.edu<br>haoz4@andrew.cmu.edu #Preferred public email address
+email: zhang-h19@tsinghua.org.cn<br>haoz4@andrew.cmu.edu #Preferred public email address
 scholar: qC9ScSkAAAAJ #Google Scholar User ID
 website:
 UCSF: https://haozhang-thu.github.io/
