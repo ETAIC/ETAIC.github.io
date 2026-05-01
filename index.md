@@ -18,7 +18,7 @@ group: home
       </a>
     </div>
     <div style="flex: 1 1 30%; min-width: 200px; max-width: 320px; text-align: center;">
-      <img src="static/img/icml_spotlight.png" alt="ICML 2026 Spotlight" style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <img src="static/img/news/icml_spotlight.png" alt="ICML 2026 Spotlight" style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     </div>
   </div>
 </div>
