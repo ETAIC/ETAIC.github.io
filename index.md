@@ -23,8 +23,6 @@ group: home
   </div>
 </div>
 
-
-
 # Welcome to the ETAIC Lab!
 {: .display-4}
 <br>
