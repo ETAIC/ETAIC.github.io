@@ -4,6 +4,27 @@ layout: home
 group: home
 ---
 
+<div class="news-spotlight-card" style="background-color: #fdfaf6; border-left: 5px solid #d9534f; border-radius: 8px; padding: 24px; margin-bottom: 32px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);">
+  <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px;">
+    <div style="flex: 1 1 60%; min-width: 300px;">
+      <h4 style="margin-top: 0; color: #d9534f; margin-bottom: 8px;">
+        <strong>🎉 ICML 2026 Spotlight Paper</strong>
+      </h4>
+      <p style="font-size: 1.02rem; line-height: 1.5; color: #333; margin-bottom: 16px;">
+        We are thrilled to announce that our submission, <em>"Learning Human-Robot Collaboration via Heterogeneous-Agent Lyapunov Policy Optimization"</em>, has been accepted as a Spotlight paper at ICML 2026 (representing the top 2.2% of all submissions).
+      </p>
+      <a href="https://openreview.net/forum?id=uBvlUE2wrP" style="display: inline-block; padding: 8px 16px; background-color: #d9534f; color: #ffffff; text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.95rem; transition: background-color 0.2s;">
+        Read the Paper &rarr;
+      </a>
+    </div>
+    <div style="flex: 1 1 30%; min-width: 200px; max-width: 320px; text-align: center;">
+      <img src="static/img/icml_spotlight.png" alt="ICML 2026 Spotlight" style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    </div>
+  </div>
+</div>
+
+
+
 # Welcome to the ETAIC Lab!
 {: .display-4}
 <br>
