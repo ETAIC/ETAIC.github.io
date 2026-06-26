@@ -11,6 +11,7 @@ email: hongtei.tseng[at]uta[dot]edu
 scholar: UWnwlu4AAAAJ
 UCSF: https://www.uta.edu/academics/faculty/profile?user=hongtei.tseng
 orcid: 0000-0001-5087-9592
+
 description: "Professor Tseng is a Distinguished University Professor at the University of Texas at Arlington. He founded and directs the [ETAIC (Embodied Technology for Autonomy, Intelligence, and Control) Research Lab](https://etaic.github.io/) at UTA. He is a member of the [National Academy of Engineering](https://www.nae.edu/), recognized for his contributions to [intelligent vehicle control and automotive systems integration](https://www.nae.edu/248787/Dr-Hongtei-E-Tseng).
 <br><br>
 He received his B.S. in Mechanical Engineering from National Taiwan University in 1986, and his M.S. and Ph.D. from the University of California, Berkeley in 1991 and 1994, respectively.
@@ -19,5 +20,6 @@ He joined [Ford Motor Company](https://www.ford.com/) in 1994 as a product desig
 <br><br>
 He received seven Henry Ford Technology Awards, Ford’s highest technical honor, for innovations in the design and successful implementation of control technologies in production vehicles. He received the [Control Engineering Practice Award](https://a2c2.org/) in 2013 from the American Automatic Control Council (AACC) for “original applications of advanced and classical estimation and control theory to the automotive industry.”
 <br><br>
+
 He joined the University of Texas at Arlington in 2024, where he continues his research at the intersection of control theory, robotics, and transportation systems. That same year, he received the ASME Soichiro Honda Medal, which recognizes “an individual for an outstanding achievement or a series of significant engineering contributions in developing improvements in the field of personal transportation.” He is an inventor on more than 110 U.S. patents and has authored or coauthored over 180 journal articles, conference papers, and book chapters. According to Google Scholar, his work has received more than 17,000 citations, with an h-index of 66."
 ---
