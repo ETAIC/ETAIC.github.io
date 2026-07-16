@@ -18,6 +18,10 @@
   link: "/members"
   group: members
 
+- name: book review
+  link: "/book-review"
+  group: book-review
+
 #- name: teaching
 #  link: "/courses"
 #  group: courses
