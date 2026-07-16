@@ -6,9 +6,9 @@
   link: "/research"
   group: research
 
-- name: news
-  link: "/news"
-  group: news
+# - name: news
+#   link: "/news"
+#   group: news
   
 - name: publications
   link: "/publications"
