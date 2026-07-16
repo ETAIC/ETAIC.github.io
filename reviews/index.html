@@ -1,190 +1,126 @@
 ---
-title: Peer Reviews from the Fraser Lab
+title: Book Review — ETAIC Lab
 layout: default
 group: reviews
 ---
 
-<h1>Peer Review</h1>
+<h1>Book Review</h1>
 <div class="container-fluid">
-<h7>
-Peer review of scientific manuscripts is essential for what is, currently, by far the most widely
-accepted means of communication of scientific results: publishing papers in scientific journals. The
-process of peer review plays an important role in refining the body of work prior to final publication.
-<br><br>
-We believe that transparency in peer review can improve the speed, quality, and collegiality of the publication
-process.  Peer review is also an important training opportunity for lab members in scientific thinking and writing. As such, we only review manuscripts that have been posted on preprint servers and we post our peer review
-comments publicly. Additional resources can be found in our
-<a href="https://fraserlab.com/philosophy/" target="_blank" alt = "Lab Compact (opens in new tab)">Lab Compact</a>
-and in the <a href="https://fraserlab.com/peer_review/" target="_blank" alt = "Peer Review minicourse (opens in new tab)">Peer Review minicourse</a>. We support other initiatives to improve peer review (such as <a href="https://www.reviewcommons.org/" target="blank" alt = "Review Commons (opens in new tab)">Review Commons</a> and <a href="https://asapbio.org/feedbackasap" target="blank" alt = "FeedbackASAP (opens in new tab)">FeedbackASAP</a>).
-<br><br>
-</h7>
 
-{% assign sorted = site.reviews | sort: "date" | reverse %}
-{% for review in sorted %}
+<p>
+  Book reviews from the ETAIC Lab highlight influential texts in reinforcement learning,
+  control, and intelligent systems. We hope this review helps bring broader international
+  attention to outstanding work in the field.
+</p>
 
-	<hr>
-	<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{review.date}}">
-	<div><h5>{{ review.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}.<br></h5>
-	<h6>{{ review.authors | markdownify | remove: '<p>' | remove: '</p>' | strip}}.</h6><br>
-	Reviewed by: <strong>{{ review.reviewers | markdownify | remove: '<p>' | remove: '</p>' | strip }}.</strong><br><br>
-	</div>
-	{% if review.abstract %}
-	<div>{{ review.abstract | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-	{% endif %}
-	<br>
-	</div>
+<hr>
 
-	<div class="row" style="padding-top: 20px; margin-top: -20px">
-		<div class="col">
-			{% if review.image %}
-			<img class = "img-fluid" src = "{{review.image}}" alt = "Representative Image" style="max-height: 250px;; margin-right: 30px">
-			{% endif %}
-		</div>
-		<ul class="col">
-			<h5>Peer Review</h5>
-			{% for record in review.peer-review %}
-				<!--Biorxiv-->
-				{% if record.biorxiv %}
-				<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{record.biorxiv}}"<a href="https://fraserlab.com/philosophy/" target="_blank" alt = "biorxiv preprint link: {{record.biorxiv}}">{{record.biorxiv | split: "." | last }}</a></li>
-				{% endif %}
+<h2>Review of <em>Reinforcement Learning for Sequential Decision and Optimal Control</em></h2>
+<p><strong>Author:</strong> Professor Shengbo Eben Li</p>
+<p><strong>Review by:</strong> H. Eric Tseng</p>
 
-				<!--Biorxiv specific version-->
-				{% if record.biorxiv_version %}
-				<li>Biorxiv Preprint v{{record.biorxiv_version | split: "." | last | split: "v" | last }}: <a href="http://www.biorxiv.org/content/10.1101/{{record.biorxiv_version}}" target="_blank" alt = "biorxiv preprint link: {{record.biorxiv_version}}">{{record.biorxiv_version | split: "." | last | split: "v" | first }}</a></li>
-				{% endif %}
+<p>
+  Professor Shengbo Eben Li’s <em>Reinforcement Learning for Sequential Decision and Optimal Control</em>
+  is a timely, rigorous, and highly recommended textbook for readers seeking to understand
+  reinforcement learning (RL) in relation to optimal control and approximate dynamic programming.
+  Rather than presenting modern reinforcement-learning algorithms as a collection of disconnected
+  techniques, Dr. Li develops a coherent framework in which foundational concepts—Markov decision
+  processes, Bellman optimality, value functions, policy improvement, and dynamic programming—remain
+  central to both classical and contemporary methods. The book is particularly valuable for readers
+  who wish to understand not only how an algorithm is implemented, but also the theoretical principles
+  and control perspectives that motivate it.
+</p>
 
-				<!--Arxiv-->
-				{% if record.arxiv %}
-				<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{record.arxiv}}" target="_blank" alt = "arxiv preprint link: {{record.arxiv}}">{{record.arxiv}}</a></li>
-				{% endif %}
+<p>
+  A major strength of the book is its logical organization. It begins with the basic formulation of
+  reinforcement-learning problems and proceeds through Monte Carlo learning, temporal-difference
+  learning, stochastic dynamic programming, function approximation, direct policy-gradient methods,
+  and approximate dynamic programming. This sequence enables readers to see the relationships among
+  model-free and model-based approaches, indirect RL and direct RL methods, value-based methods,
+  policy-optimization approaches, and hybrid approaches. The text’s systematic development is
+  especially useful for students encountering modern RL methods for the first time, since it shows how
+  modern RL extends classical value learning and policy optimization through increasingly flexible
+  forms of function approximation.
+</p>
 
-				<!--prereview.org -->
-				{% if record.prereview %}
-				<li>PREreview.org: <a href="https://www.prereview.org/reviews/{{record.prereview}}" target="_blank" alt = "prereview.org preprint link: {{record.prereview}}">{{record.prereview}}</a></li>
-				{% endif %}
+<p>
+  The book’s most distinctive contribution is its control-oriented treatment of RL. Li gives sustained
+  attention to approximate dynamic programming, including infinite- and finite-horizon formulations,
+  continuous-time systems, convergence and stability issues, and the relationship between RL and model
+  predictive control. This perspective will be particularly appealing to readers in control, robotics,
+  autonomous systems, and intelligent transportation. The book also uses examples involving autonomous
+  driving, cleaning robots, vehicle control, lane keeping, and constrained decision-making, helping
+  readers connect mathematical formulations with realistic engineering problems.
+</p>
 
-				<!--prereview.org beta version -->
-				{% if record.prereview_beta %}
-				<li>PREreview.org: <a href="https://beta.prereview.org/preprints/{{record.prereview_beta}}" target="_blank" alt = "prereview.org preprint link: {{record.prereview_beta}}">{{record.prereview_beta}}</a></li>
-				{% endif %}
+<p>
+  The chapter on state constraints and safety deserves particular recognition. Safety is often treated
+  as an auxiliary issue in RL texts, but Li places it at the center of the discussion by examining
+  feasibility, constrained optimization, penalty and Lagrange-multiplier methods, feasible-descent
+  approaches, safe-policy training, and safety-shield mechanisms. The introduction of the
+  actor-critic-scenery architecture further reflects the author’s interest in the practical problem of
+  simultaneously learning a high-performing policy and identifying the region in which that policy can
+  remain feasible. This emphasis makes the book unusually relevant to safety-critical applications,
+  where reward maximization alone is an inadequate objective.
+</p>
 
-				<!--Chemrxiv-->
-				{% if record.chemrxiv %}
-				<li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{record.chemrxiv}}" target="_blank" alt = "chemrxiv preprint link: {{record.chemrxiv}}">{{record.chemrxiv}}</a></li>
-				{% endif %}
+<p>
+  The book is well positioned relative to other major references. Sutton and Barto’s
+  <em>Reinforcement Learning: An Introduction</em> remains the canonical text for the fundamental
+  principles of reinforcement learning. Li’s book complements that classic by extending the discussion
+  more fully toward approximate dynamic programming, deep RL, safety constraints, and control-oriented
+  applications. It also complements Frank L. Lewis and Derong Liu’s
+  <em>Reinforcement Learning and Approximate Dynamic Programming for Feedback Control</em>, an
+  influential control-oriented reference by Frank Lewis, a pioneer in reinforcement learning and
+  adaptive dynamic programming for feedback control. Whereas Lewis and Liu provide a focused and
+  rigorous treatment of adaptive dynamic programming and feedback control, Li offers a broader textbook
+  perspective on RL methods and their connections to contemporary sequential decision-making problems.
+  The two books are therefore complementary: Lewis and Liu offer depth in adaptive dynamic programming
+  and feedback control, while Li provides a wider view of modern RL algorithms and sequential
+  decision-making.
+</p>
 
-				<!--Preprints.org -->
-				{% if record.preprintsorg %}
-				<li>Preprints.org: <a href="https://www.preprints.org/manuscript/{{record.preprintsorg}}" target="_blank" alt = "preprints.org preprint link: {{record.preprintsorg}}">{{record.preprintsorg}}</a></li>
-				{% endif %}
+<p>
+  The breadth of the book is impressive, but it also creates one of its few limitations. The final
+  chapter introduces robust RL, partially observable MDPs, meta-RL, multi-agent RL, inverse RL, offline
+  RL, software frameworks, and simulation platforms. This provides readers with an excellent map of
+  important research directions, but these advanced subjects necessarily receive more compact treatment
+  than the foundational chapters. Readers seeking research-level depth in offline RL, multi-agent RL,
+  inverse RL, or robust RL will need to consult the references and specialized literature cited
+  throughout the text.
+</p>
 
+<p>
+  A second limitation concerns prerequisites. Although systematic in presentation, the book is not aimed
+  at complete beginners or readers without a solid mathematical background. Familiarity with Python and
+  some prior exposure to deep learning—supplemented, where helpful, by a general reference such as
+  Goodfellow, Bengio, and Courville’s <em>Deep Learning</em>—would help readers connect the theory with
+  implementation.
+</p>
 
-				<!--Disqus comment-->
-				{% if record.disqus %}
-				<li>Review: <a href="http://disq.us/p/{{record.disqus}}" target="_blank" alt = "link to review as Disqus comment: {{record.disqus}}">{{record.disqus}}</a></li>
-				{% endif %}
+<p>
+  Overall, <em>Reinforcement Learning for Sequential Decision and Optimal Control</em> is an excellent
+  and strongly recommended textbook. Its primary achievement is to provide a unified account of
+  reinforcement learning as both a learning paradigm and a framework for optimal control. For advanced
+  undergraduate students, graduate students, researchers, and engineers working in machine learning,
+  robotics, autonomous systems, transportation, or control, Li’s book is a valuable resource that
+  rewards careful study and deserves a place alongside the leading foundational and control-oriented
+  references in the field.
+</p>
 
-				<!--TRiP Review-->
-				{% if record.trip %}
-				<li>Reviewer: <a href="http://www.biorxiv.org/content/10.1101/{{record.biorxiv_version}}#review" target="_blank" alt = "link to review as TRiP comment: {{record.trip}}">#{{record.trip}}</a></li>
-				{% endif %}
+<h3>References</h3>
+<ul>
+  <li>
+    S Eben Li (2023). <em>Reinforcement Learning for Sequential Decision and Optimal Control</em>.
+    DOI: <a href="https://doi.org/10.1007/978-981-19-7784-8" target="_blank" rel="noopener">10.1007/978-981-19-7784-8</a>.
+    <a href="https://link.springer.com/book/10.1007/978-981-19-7784-8" target="_blank" rel="noopener">Springer</a>
+  </li>
+  <li>
+    Lewis, F. L., &amp; Liu, D. (2013).
+    <em>Reinforcement Learning and Approximate Dynamic Programming for Feedback Control</em>.
+    DOI: <a href="https://doi.org/10.1002/9781118453988" target="_blank" rel="noopener">10.1002/9781118453988</a>.
+    <a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781118453988" target="_blank" rel="noopener">Wiley</a>
+  </li>
+</ul>
 
-				<!--zenodo record-->
-				{% if record.zenodo %}
-				<li>Zenodo Record: <a href="https://www.zenodo.org/record/{{record.zenodo}}" target="_blank" alt = "link to review as zenodo PDF: {{record.zenodo}}">{{record.zenodo}}</a></li>
-				{% endif %}
-
-				{% if record.pdf %}
-				<li>Review: <a href="{{record.pdf}}" target="_blank" alt="link to full review text: {{record.pdf}}">Full Text</a></li>
-				{% endif %}
-
-			{% endfor %}
-
-		{% if review.links %}
-			<br>
-			<h6>Additional Link{% if publication.links.size > 1 %}s{% endif %}</h6>
-			{% for link in review.links %}
-				<li><a href="{{link.url}}" alt="{{link.name}} (opens in new tab)" target="_blank">{{link.name}}</a></li>
-			{% endfor %}
-		{% endif %}
-
-		{% if review.response %}
-		<br>
-		<h5>Author response</h5>
-		<h6>Read the response</h6>
-		{% for record in review.response %}
-			{% if record.url %}
-			<li>Link: <a href="{{record.url}}" target="_blank" alt = "link: {{record.url}}">
-				{% if record.description %}
-					{{record.description}}
-				{% else%}
-					{{record.url}}
-				{% endif %}
-				</a>
-			</li>
-			{% endif %}
-			<!--Disqus comment-->
-			{% if record.disqus %}
-			<li>Response: <a href="http://disq.us/p/{{record.disqus}}" target="_blank" alt = "link to response as Disqus comment: {{record.disqus}}">{{record.disqus}}</a></li>
-			{% endif %}
-
-		{% endfor %}
-		{% endif %}
-	
-
-		</ul>
-		<ul class="col">
-		{% if review.published %}
-			<h5>Post-Review</h5>
-			<h6>Access the paper</h6>
-			{% for record in review.published %}
-				{% if record.pmid %}
-				<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{record.pmid}}" target="_blank" alt = "pubmed link: {{record.pmid}}">{{record.pmid}}</a></li>
-				{% endif %}
-				{% if record.pdf %}
-				<li><a href="{{record.pdf}}" target="_blank" alt="link to full text: {{record.pdf}}">Full Text</a></li>
-				{% endif %}
-			{% endfor %}
-
-			{% if review.highlight %}
-				<br><h6>Highlight</h6>
-				{% for record in review.highlight %}
-					<!--Article Title-->
-					{% if record.title %}
-						<li>{{record.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}.</li>
-					{% endif %}
-
-					<!--Authors-->
-					{% if record.authors %}
-						{{record.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}.
-					{% endif %}
-
-					<!--Journal-->
-					{% if record.journal %}
-						<i>{{record.journal}}.</i>
-					{% endif %}
-
-					<!--Publication Date-->
-					{% if review.date %}
-						{{review.date | split: "-" | first }}.
-					{% endif %}
-					<br>
-
-					<!--Zenodo Record-->
-					{% if record.zenodo %}
-					<li>Zenodo Record: <a href="https://www.zenodo.org/record/{{record.zenodo}}" target="_blank" alt = "link to review as zenodo: {{record.zenodo}}">{{record.zenodo}}</a></li>
-					{% endif %}
-
-					<!--PDF-->
-					{% if record.pdf %}
-					<li><a href="{{record.pdf}}" target="_blank" alt="link to full text: {{record.pdf}}">Full Text</a></li>
-					{% endif %}
-
-				{% endfor %}
-			{% endif %}
-		{% endif %}
-		</ul>
-	</div>
-	<br>
-{% endfor %}
 </div>
