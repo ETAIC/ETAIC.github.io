@@ -6,21 +6,22 @@
   link: "/research"
   group: research
 
+- name: news
+  link: "/news"
+  group: news
+  
 - name: publications
   link: "/publications"
   group: publications
 
-#- name: reviews
-#  link: "/reviews"
-#  group: reviews
 
 - name: members
   link: "/members"
   group: members
 
-- name: book review
-  link: "/book-review"
-  group: book-review
+- name: reviews
+  link: "/reviews"
+  group: reviews
 
 #- name: teaching
 #  link: "/courses"
@@ -30,9 +31,7 @@
 #  link: "/philosophy"
 #  group: philosophy
 
-#- name: news
-#  link: "/news"
-#  group: news
+
 
 - name: join
   link: "/join"
