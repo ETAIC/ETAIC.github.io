@@ -4,7 +4,7 @@ timeline_name:
 startdate: [2026-05-05]
 enddate: #[]
 image: /static/img/members/yisen.jpg
-position: <br>Visiting Researcher<br>Research Assistant at ETAIC
+position: <br>Graduate Student<br>Research Assistant at ETAIC
 #timeline_positions: ["Graduate Student (2019-2023)]
 #subsequent:  update once you become an alumnus
 email: yisen03@upenn.edu
