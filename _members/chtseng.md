@@ -1,7 +1,7 @@
 ---
 name: Yves Tseng
 timeline_name:
-startdate: [2025-09]
+startdate: [2025-09-10]
 enddate: #[]
 image: /static/img/members/max.jpg
 position: <br>Graduate Student<br>Research Assistant at ETAIC
